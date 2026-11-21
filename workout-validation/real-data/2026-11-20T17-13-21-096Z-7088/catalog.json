@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Wall push-up",
+    "muscleGroup": "chest",
+    "equipment": "none",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "1"
+  },
+  {
+    "name": "Knee push-up",
+    "muscleGroup": "chest",
+    "equipment": "none",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "2"
+  },
+  {
+    "name": "Standing reverse fly without weights",
+    "muscleGroup": "upper back",
+    "equipment": "none",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "3"
+  },
+  {
+    "name": "Prone W raise",
+    "muscleGroup": "upper back",
+    "equipment": "none",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "4"
+  },
+  {
+    "name": "Bodyweight squat",
+    "muscleGroup": "legs",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "5"
+  },
+  {
+    "name": "Glute bridge",
+    "muscleGroup": "glutes",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "6"
+  },
+  {
+    "name": "Bird dog",
+    "muscleGroup": "core",
+    "equipment": "none",
+    "movement": "core",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "7"
+  },
+  {
+    "name": "Dead bug",
+    "muscleGroup": "core",
+    "equipment": "none",
+    "movement": "core",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "8"
+  },
+  {
+    "name": "Marching in place",
+    "muscleGroup": "cardio",
+    "equipment": "none",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "9"
+  },
+  {
+    "name": "Easy walking",
+    "muscleGroup": "cardio",
+    "equipment": "none",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "10"
+  },
+  {
+    "name": "Dumbbell floor press",
+    "muscleGroup": "chest",
+    "equipment": "home",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "11"
+  },
+  {
+    "name": "Band chest press",
+    "muscleGroup": "chest",
+    "equipment": "home",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "12"
+  },
+  {
+    "name": "Dumbbell row",
+    "muscleGroup": "back",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "13"
+  },
+  {
+    "name": "Band row",
+    "muscleGroup": "back",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "14"
+  },
+  {
+    "name": "Goblet squat",
+    "muscleGroup": "legs",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "15"
+  },
+  {
+    "name": "Dumbbell Romanian deadlift",
+    "muscleGroup": "legs",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "16"
+  },
+  {
+    "name": "Band Pallof press",
+    "muscleGroup": "core",
+    "equipment": "home",
+    "movement": "core",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "17"
+  },
+  {
+    "name": "Machine chest press",
+    "muscleGroup": "chest",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "18"
+  },
+  {
+    "name": "Cable chest press",
+    "muscleGroup": "chest",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "19"
+  },
+  {
+    "name": "Lat pulldown",
+    "muscleGroup": "back",
+    "equipment": "gym",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "20"
+  },
+  {
+    "name": "Seated cable row",
+    "muscleGroup": "back",
+    "equipment": "gym",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "21"
+  },
+  {
+    "name": "Leg press",
+    "muscleGroup": "legs",
+    "equipment": "gym",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "22"
+  },
+  {
+    "name": "Seated leg curl",
+    "muscleGroup": "legs",
+    "equipment": "gym",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "23"
+  },
+  {
+    "name": "Stationary cycling",
+    "muscleGroup": "cardio",
+    "equipment": "gym",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ],
+    "_id": "24"
+  }
+]

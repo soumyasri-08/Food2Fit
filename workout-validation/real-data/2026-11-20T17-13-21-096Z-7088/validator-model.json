@@ -1,0 +1,25 @@
+{
+  "algorithm": "logistic-regression",
+  "featureNames": [
+    "unknownExercise",
+    "equipmentMismatch",
+    "scheduleMismatch",
+    "duplicateExercise",
+    "setsOutOfRange",
+    "repsOrDurationOutOfRange",
+    "restOutOfRange"
+  ],
+  "weights": [
+    4.517433126085506,
+    4.351937296222008,
+    4.093608265423587,
+    4.517433126085506,
+    4.516316653688859,
+    4.525581904048113,
+    4.516316653688859
+  ],
+  "bias": -1.129078134967074,
+  "threshold": 0.25,
+  "trainingOrigin": "synthetic-rule-labels",
+  "seed": 20261030
+}

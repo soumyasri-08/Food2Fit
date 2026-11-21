@@ -1,6 +1,14 @@
 const path = require('node:path');
 require('dotenv').config({ path: path.resolve(__dirname, '../.env'), quiet: true });
 
+// Optional process-local resolver override for networks that block Atlas SRV lookups.
+// This never changes Windows DNS settings.
+if (process.env.MONGO_DNS_SERVERS) {
+  const servers = process.env.MONGO_DNS_SERVERS.split(',').map(value => value.trim());
+  if (servers.some(value => !require('node:net').isIP(value))) throw new Error('MONGO_DNS_SERVERS must contain comma-separated IP addresses.');
+  require('node:dns').setServers(servers);
+}
+
 const isProduction = process.env.NODE_ENV === 'production' || Boolean(process.env.VERCEL);
 const port = Number(process.env.PORT || 5000);
 if (!Number.isInteger(port) || port < 1 || port > 65535) {
@@ -22,6 +30,9 @@ if (isProduction && (!process.env.JWT_SECRET || Buffer.byteLength(process.env.JW
 }
 
 module.exports = {
+  aiProvider: process.env.AI_PROVIDER || 'gemini',
+  groqApiKey: process.env.GROQ_API_KEY,
+  groqModel: process.env.GROQ_MODEL || 'openai/gpt-oss-20b',
   isProduction,
   port,
   clientUrl,
@@ -29,4 +40,6 @@ module.exports = {
   jwtSecret: process.env.JWT_SECRET,
   geminiApiKey: process.env.GEMINI_API_KEY,
   geminiModel: process.env.GEMINI_MODEL,
+  googleClientId: process.env.GOOGLE_CLIENT_ID,
+  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
 };

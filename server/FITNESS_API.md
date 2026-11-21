@@ -163,3 +163,74 @@ Food selection filters diet/allergen/meal tags first. Unknown allergen metadata 
 Breakfast/lunch/snack/dinner receive 25%/30%/15%/30% of the target. A food cannot appear twice in one day or more than four times in the week. If eligibility/variety leaves no candidates, generation fails rather than relaxing restrictions. Calorie differences over 15% or protein differences over 25% generate per-day warnings. Low-carb overshoots also generate warnings. **The limited sample data can produce substantial deviations, particularly for keto; the dashboard must show actual totals and warnings, not claim target compliance.**
 
 Workout selection uses seeded records, equipment availability, goal tags and beginner/intermediate difficulty. Up to three days use spaced full-body sessions; four or more use push/pull/legs rotations. Fat-loss schedules may include low-impact intervals. Six/seven-day schedules include active recovery; rest days are explicit. Sets/reps/rest vary by goal. No advanced or all-out HIIT is prescribed without a fitness-experience input.
+# Gemini workout generation
+
+`POST /api/fitness/generate-workout` accepts an empty body and requires a bearer
+token plus an existing, current diet/fitness plan. It replaces only that user's
+workout and returns `{ workoutPlan, notice }`. Diet selections and nutrition
+remain deterministic and unchanged. Build or regenerate the normal plan first.
+
+Gemini receives only goal, equipment and eligible exercise options. It chooses
+exercises and bounded sets/repetitions/rest, preserving the engine's scheduled
+days and movement coverage. Unknown IDs, duplicates, incompatible movements,
+invalid volume and changed schedules are rejected before persistence. Exercise
+names come from the database. `generationMethod` is `gemini` or `dataset`.
+
+This endpoint shares the recipe/image AI limit of five calls per user and IP
+per minute. Provider calls run outside database transactions; concurrent profile
+or plan changes return 409. Missing plans return 404, invalid output 502, provider
+unavailability 503, timeout 504, and quota exhaustion 429. Failures retain the
+existing plan. Generating the normal dataset plan restores its dataset workout.
+There is no separate workout response cache; the last successful workout is
+persisted and can be viewed without another Gemini request.
+
+Local preview remains offline and dataset-driven. Sign in to enable the
+**Generate Gemini workout** button. Both AI features use the backend's
+`GEMINI_API_KEY` and `GEMINI_MODEL`; never put the key in client settings.
+
+# Validated Gemini diet generation
+
+## Trained model assessments
+
+AI workout responses retain the existing deterministic checks and store the
+raw-feature classifier's `modelPrediction`, `modelScore` and version
+`workout-raw-v1` in workout `validation`.
+
+AI diet responses store `modelAssessment` on each assessed day and, when supplied
+by the provider, each assessed meal. It contains `modelPrediction`, `modelScore`
+and version `nutrition-logistic-v1`. Plan `validation` also stores `modelVersion`
+and `modelInconsistentComparisons`. Scores are calculated against the original
+AI nutrition claims before reference correction. Groq compact menus have daily
+claims only; their dataset-derived meals do not receive AI model assessments.
+
+Both classifiers are advisory alongside authoritative rule/reference checks.
+Their scores estimate inconsistency under synthetic training labels, not medical
+safety. Existing saved plans may omit these optional fields; generate a new AI
+plan to obtain assessments. Dataset fallbacks do not receive AI assessments.
+Recipe generation is unchanged. Bundled model files avoid runtime dependencies
+on training directories.
+
+`POST /api/fitness/generate-ai-plan` requires authentication, an existing profile,
+an empty body and the shared AI rate limit. The signed-in planner now calls this
+endpoint; `/generate-plan` remains the deterministic dataset endpoint.
+
+Gemini selects seven days of food IDs and gram portions from the eligible database
+catalog. The server checks diet/allergen filtering, ordered meal slots, known IDs,
+duplicate foods within a meal and portion limits. Every meal and daily nutrient
+total is recalculated from database values per 100 g. Gemini's original totals
+remain in `reportedTotals`; displayed totals are always reference calculations.
+`mealPlan.validation` records consistency or reference correction and the number
+of meal/day comparisons beyond max(20%, 20 kcal or 2 g). This is numeric validation,
+not medical approval or a trained-model accuracy claim.
+
+The previous meal selections are supplied to encourage variety. A response that
+repeats every previous meal's food selections is rejected rather than saved as a
+new plan. Some foods can still recur because the eligible catalog is limited.
+Target deviations remain visible in plan warnings.
+
+Provider requests run outside the save transaction. Profile/plan changes during
+generation cause a conflict; food/portion violations, provider failures and quota
+errors leave the previous saved plan intact. The new meal and baseline workout
+are saved atomically; the client then separately requests a Gemini workout.
+Preview mode stays local and is explicitly labeled; meal photos are illustrative.
+

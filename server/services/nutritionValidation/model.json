@@ -1,0 +1,23 @@
+{
+  "algorithm": "logistic-regression",
+  "weights": [
+    1.747155789038887,
+    1.4556883286966777,
+    1.5950957723804229,
+    1.7200206686225328,
+    1.9107886538922105,
+    8.528333276423375
+  ],
+  "bias": -4.012616882505782,
+  "threshold": 0.23,
+  "featureNames": [
+    "calories_normalized_absolute_error",
+    "protein_normalized_absolute_error",
+    "carbs_normalized_absolute_error",
+    "fat_normalized_absolute_error",
+    "fiber_normalized_absolute_error",
+    "maximum_error"
+  ],
+  "trainingOrigin": "synthetic",
+  "seed": 20261029
+}

@@ -19,6 +19,7 @@ const recipe = new Schema({
 }, { _id: false, strict: 'throw' });
 const options = { timestamps: true, strict: 'throw' };
 const preferences = new Schema({
+  language: { type: String, enum: Object.keys(require('../services/recipeLanguages.json')), default: 'English' },
   ingredients: list(text(100), 40, 1), cuisine: text(80),
   dietType: { type: String, enum: ['veg', 'non-veg', 'vegan', 'keto'], required: true },
   allergies: list(text(80), 30), calorieTarget: { ...number(3000), min: 100 },

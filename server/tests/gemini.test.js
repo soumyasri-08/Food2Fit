@@ -38,6 +38,15 @@ test('timeouts cancel the request and return a bounded error', async () => {
   await assert.rejects(service(params), { code: 'AI_TIMEOUT', status: 504 });
   assert.ok(signal.aborted);
 });
+test('transient socket resets retry within the same three-attempt budget', async () => {
+  let calls = 0;
+  const service = createGeminiService({ generate: async () => {
+    if (++calls < 3) throw { cause: { code: 'ECONNRESET' } };
+    return { text: JSON.stringify(recipe) };
+  }, sleep: async () => {} });
+  assert.deepEqual(await service(params), recipe);
+  assert.equal(calls, 3);
+});
 test('safety blocks, truncated responses and provider failures are distinct and not retried', async () => {
   for (const [response, code] of [
     [{ promptFeedback: { blockReason: 'SAFETY' } }, 'AI_SAFETY_BLOCK'],
@@ -49,5 +58,22 @@ test('safety blocks, truncated responses and provider failures are distinct and 
     await assert.rejects(createGeminiService({ generate: async () => { calls++; return response; } })(params), { code });
     assert.equal(calls, 1);
   }
-  await assert.rejects(createGeminiService({ generate: async () => { throw { status: 403, message: 'SECRET API KEY' }; } })(params), error => error.code === 'AI_UNAVAILABLE' && !error.message.includes('SECRET'));
+  await assert.rejects(createGeminiService({ generate: async () => { throw { status: 403, message: 'SECRET API KEY' }; } })(params), error => error.code === 'AI_ACCESS_DENIED' && !error.message.includes('SECRET'));
+});
+
+test('simplified provider schema retains strict local validation', async () => {
+  let providerSchema;
+  const service=createGeminiService({generate:async request=>{providerSchema=request.config.responseJsonSchema;return {text:JSON.stringify({...recipe,servings:21})};}});
+  await assert.rejects(service({...params,simplifyProviderSchema:true}),{code:'AI_INVALID_RESPONSE'});
+  assert.equal(providerSchema.properties.servings.maximum,undefined);
+  assert.equal(recipeSchema.properties.servings.maximum,20);
+  assert.deepEqual(providerSchema.required,recipeSchema.required);
+});
+
+test('request rejection and missing models are distinct, sanitized and not retried', async () => {
+  for(const [status,code]of [[400,'AI_REQUEST_REJECTED'],[404,'AI_MODEL_UNAVAILABLE']]){
+    let calls=0;
+    await assert.rejects(createGeminiService({generate:async()=>{calls++;throw {status,message:'PRIVATE'};}})(params),e=>e.code===code&&!e.message.includes('PRIVATE'));
+    assert.equal(calls,1);
+  }
 });

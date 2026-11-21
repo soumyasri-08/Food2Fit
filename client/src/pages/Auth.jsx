@@ -1,8 +1,168 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Leaf, ArrowLeft, Eye, EyeOff, ArrowRight } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { messageOf } from '../services/api';
 import { Field, Submit, ErrorState } from '../components/UI';
-export default function Auth({register=false}){const{authenticate,enterDemo}=useApp();const navigate=useNavigate();const[busy,setBusy]=useState(false),[error,setError]=useState(''),[visible,setVisible]=useState(false);async function submit(event){event.preventDefault();setBusy(true);setError('');const fields=new FormData(event.currentTarget);const input={email:fields.get('email'),password:fields.get('password')};if(register)input.name=fields.get('name');try{await authenticate(register?'register':'login',input);navigate('/dashboard');}catch(e){setError(messageOf(e));}finally{setBusy(false);}}
-return <main className="auth-page" id="main-content"><section className="auth-aside"><Link className="brand" to="/"><span className="brand-icon"><Leaf/></span>food<span>2</span>fit.</Link><div><p className="eyebrow">YOUR NEXT CHAPTER</p><h1>A healthier everyday<br/>starts with you.</h1><p>Good food. Thoughtful movement.<br/>A little progress at your own pace.</p></div><span>Made for your everyday.</span></section><section className="auth-content"><Link to="/" className="back-link"><ArrowLeft size={16}/> Back to home</Link><form className="auth-form" onSubmit={submit} key={String(register)}><p className="eyebrow">LET’S MAKE ROOM FOR YOU</p><h1>{register?'A fresh start.':'Welcome back.'}</h1><p className="subtitle">{register?'Create your account and find your balance.':'Your wellness space is right where you left it.'}</p>{error&&<ErrorState message={error}/ >}{register&&<Field label="Your name"><input name="name" autoComplete="name" required maxLength={80}/></Field>}<Field label="Email address"><input name="email" type="email" autoComplete="email" required maxLength={254} placeholder="you@example.com"/></Field><Field label="Password" hint={register?'Use at least 12 characters (maximum 72 UTF-8 bytes).':undefined}><div className="password-input"><input name="password" type={visible?'text':'password'} autoComplete={register?'new-password':'current-password'} required minLength={12}/><button type="button" className="icon-button" aria-label={visible?'Hide password':'Show password'} onClick={()=>setVisible(!visible)}>{visible?<EyeOff size={18}/>:<Eye size={18}/>}</button></div></Field><Submit busy={busy}>{register?'Create account':'Sign in'}<ArrowRight size={17}/></Submit><p className="auth-switch">{register?'Already have an account?':'New around here?'} <Link to={register?'/login':'/register'}>{register?'Sign in':'Create an account'}</Link></p><div className="auth-divider"><span>or have a look around</span></div><button type="button" className="button secondary" onClick={()=>{enterDemo();navigate('/dashboard');}}>Explore with sample data</button></form></section></main>}
+
+const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+
+function GoogleIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+      <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+      <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+      <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+    </svg>
+  );
+}
+
+function GoogleButton({ onSuccess, onError }) {
+  const ref = useRef(null);
+  const [gsiReady, setGsiReady] = useState(false);
+
+  useEffect(() => {
+    if (!GOOGLE_CLIENT_ID) return;
+    const render = () => {
+      if (!ref.current || !window.google?.accounts?.id) return;
+      try {
+        window.google.accounts.id.initialize({
+          client_id: GOOGLE_CLIENT_ID,
+          callback: response => {
+            if (response.credential) onSuccess(response.credential);
+            else onError('Google sign-in was cancelled.');
+          },
+        });
+        window.google.accounts.id.renderButton(ref.current, {
+          type: 'standard',
+          theme: 'outline',
+          size: 'large',
+          width: 400,
+          text: 'continue_with',
+          shape: 'rectangular',
+        });
+        setGsiReady(true);
+      } catch {
+        setGsiReady(false);
+      }
+    };
+
+    if (window.google?.accounts?.id) {
+      render();
+      return;
+    }
+
+    if (!document.querySelector('script[src*="accounts.google.com/gsi/client"]')) {
+      const script = document.createElement('script');
+      script.src = 'https://accounts.google.com/gsi/client';
+      script.async = true;
+      script.defer = true;
+      script.onload = render;
+      document.head.appendChild(script);
+    } else {
+      const check = setInterval(() => {
+        if (window.google?.accounts?.id) {
+          clearInterval(check);
+          render();
+        }
+      }, 100);
+      return () => clearInterval(check);
+    }
+  }, [onSuccess, onError]);
+
+  function handleCustomClick() {
+    if (!GOOGLE_CLIENT_ID) {
+      onError('Google Sign-In is configured in code! To link your Google account, set VITE_GOOGLE_CLIENT_ID in client/.env and GOOGLE_CLIENT_ID in server/.env.');
+      return;
+    }
+    if (window.google?.accounts?.id) {
+      window.google.accounts.id.prompt();
+    }
+  }
+
+  return (
+    <div className="google-auth-wrapper">
+      {GOOGLE_CLIENT_ID && <div ref={ref} style={{ display: gsiReady ? 'flex' : 'none', justifyContent: 'center', width: '100%' }} />}
+      {(!GOOGLE_CLIENT_ID || !gsiReady) && (
+        <button type="button" className="google-auth-button" onClick={handleCustomClick}>
+          <GoogleIcon />
+          <span>Continue with Google</span>
+        </button>
+      )}
+    </div>
+  );
+}
+
+export default function Auth({ register = false }) {
+  const { authenticate, googleLogin } = useApp();
+  const navigate = useNavigate();
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  const [visible, setVisible] = useState(false);
+
+  async function submit(event) {
+    event.preventDefault();
+    setBusy(true);
+    setError('');
+    const fields = new FormData(event.currentTarget);
+    const input = { email: fields.get('email'), password: fields.get('password') };
+    if (register) input.name = fields.get('name');
+    try {
+      await authenticate(register ? 'register' : 'login', input);
+      navigate('/dashboard');
+    } catch (e) {
+      setError(messageOf(e));
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function handleGoogle(credential) {
+    setBusy(true);
+    setError('');
+    try {
+      await googleLogin(credential);
+      navigate('/dashboard');
+    } catch (e) {
+      setError(messageOf(e));
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <main className="auth-page" id="main-content">
+      <section className="auth-aside">
+        <Link className="brand" to="/"><span className="brand-icon"><Leaf /></span>food<span>2</span>fit.</Link>
+        <div>
+          <p className="eyebrow">YOUR NEXT CHAPTER</p>
+          <h1>A healthier everyday<br />starts with you.</h1>
+          <p>Good food. Thoughtful movement.<br />A little progress at your own pace.</p>
+        </div>
+        <span>Made for your everyday.</span>
+      </section>
+      <section className="auth-content">
+        <Link to="/" className="back-link"><ArrowLeft size={16} /> Back to home</Link>
+        <form className="auth-form" onSubmit={submit} key={String(register)}>
+          <p className="eyebrow">LET'S MAKE ROOM FOR YOU</p>
+          <h1>{register ? 'A fresh start.' : 'Welcome back.'}</h1>
+          <p className="subtitle">{register ? 'Create your account and find your balance.' : 'Your wellness space is right where you left it.'}</p>
+          {error && <ErrorState message={error} />}
+          <GoogleButton onSuccess={handleGoogle} onError={setError} />
+          <div className="auth-divider">or</div>
+          {register && <Field label="Your name"><input name="name" autoComplete="name" required maxLength={80} /></Field>}
+          <Field label="Email address"><input name="email" type="email" autoComplete="email" required maxLength={254} placeholder="you@example.com" /></Field>
+          <Field label="Password" hint={register ? 'Use at least 12 characters (maximum 72 UTF-8 bytes).' : undefined}>
+            <div className="password-input">
+              <input name="password" type={visible ? 'text' : 'password'} autoComplete={register ? 'new-password' : 'current-password'} required minLength={12} />
+              <button type="button" className="icon-button" aria-label={visible ? 'Hide password' : 'Show password'} onClick={() => setVisible(!visible)}>{visible ? <EyeOff size={18} /> : <Eye size={18} />}</button>
+            </div>
+          </Field>
+          <Submit busy={busy}>{register ? 'Create account' : 'Sign in'}<ArrowRight size={17} /></Submit>
+          <p className="auth-switch">{register ? 'Already have an account?' : 'New around here?'} <Link to={register ? '/login' : '/register'}>{register ? 'Sign in' : 'Create an account'}</Link></p>
+        </form>
+      </section>
+    </main>
+  );
+}

@@ -1,0 +1,55 @@
+{
+  "origin": "live-gemini",
+  "generatedAt": "2026-10-29T15:38:08.668Z",
+  "recipe": {
+    "title": "Simple Chickpea and Spinach Salad",
+    "description": "A quick and nutritious fresh salad combining raw spinach leaves and cooked chickpeas, seasoned lightly with their natural flavors.",
+    "ingredients": [
+      {
+        "name": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+        "quantity": "300g"
+      },
+      {
+        "name": "Spinach, raw",
+        "quantity": "100g"
+      }
+    ],
+    "instructions": [
+      "Wash the raw spinach thoroughly and gently pat dry with paper towels.",
+      "Place the raw spinach in a medium mixing bowl.",
+      "Add the cooked chickpeas to the bowl with the spinach.",
+      "Toss the ingredients together gently until evenly combined.",
+      "Divide the salad into two equal portions and serve immediately."
+    ],
+    "prepTime": 10,
+    "cookTime": 0,
+    "servings": 2,
+    "nutrition": {
+      "calories": 264,
+      "protein": 14.7,
+      "carbs": 42.5,
+      "fat": 4.2,
+      "fiber": 12.1
+    }
+  },
+  "validation": {
+    "status": "likely_consistent",
+    "modelScore": 0.026718545153447973,
+    "expectedPerServing": {
+      "calories": 257.5,
+      "protein": 14.719999999999999,
+      "carbs": 42.945,
+      "fat": 4.08,
+      "fiber": 12.5
+    },
+    "reportedPerServing": {
+      "calories": 264,
+      "protein": 14.7,
+      "carbs": 42.5,
+      "fat": 4.2,
+      "fiber": 12.1
+    },
+    "notice": "Synthetic-trained nutrition consistency prototype. Score is not calibrated confidence. Not a safety or medical assessment."
+  },
+  "evaluationNote": "One constrained live demonstration, not an accuracy evaluation. No expert ground-truth label is assigned. This response is not added to training."
+}

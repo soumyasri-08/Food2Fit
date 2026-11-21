@@ -1,0 +1,41 @@
+{
+  "equipment": "none",
+  "expectedDays": [
+    1
+  ],
+  "days": [
+    {
+      "day": 1,
+      "exercises": [
+        {
+          "name": "Invented exercise",
+          "sets": 3,
+          "repetitions": 6,
+          "workSeconds": 0,
+          "restSeconds": 90
+        },
+        {
+          "name": "Lateral lunge",
+          "sets": 3,
+          "repetitions": 8,
+          "workSeconds": 0,
+          "restSeconds": 43
+        },
+        {
+          "name": "Reverse lunge",
+          "sets": 4,
+          "repetitions": 8,
+          "workSeconds": 0,
+          "restSeconds": 98
+        },
+        {
+          "name": "Wall push-up",
+          "sets": 4,
+          "repetitions": 6,
+          "workSeconds": 0,
+          "restSeconds": 96
+        }
+      ]
+    }
+  ]
+}

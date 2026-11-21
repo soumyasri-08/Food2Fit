@@ -15,7 +15,7 @@ before(async () => {
   // A fake model label only; every provider call is intercepted below.
   process.env.GEMINI_MODEL = 'test-model'; delete process.env.GEMINI_API_KEY;
   database = await MongoMemoryServer.create(); process.env.MONGO_URI = database.getUri('recipes_test');
-  app = require('../app'); models = require('../models'); gemini = require('../services/geminiService'); original = gemini.generateJSON;
+  app = require('../app'); models = require('../models'); gemini = require('../services/aiService'); original = gemini.generateJSON;
   await require('../config/db')();
   for (const [index, email] of ['recipe-a@example.com', 'recipe-b@example.com'].entries()) {
     const response = await request(app).post('/api/auth/register').send({ name: 'Private Name', email, password: 'long test password 123' }).expect(201);
@@ -48,6 +48,21 @@ test('cache entries are private and expired entries are ignored before TTL clean
   assert.equal(calls.length, 2); assert.equal(await models.RecipeCache.countDocuments({}), 2);
   await models.RecipeCache.updateMany({}, { $set: { expiresAt: new Date(0) } });
   await send('post', '/generate').send(input).expect(201); assert.equal(calls.length, 3);
+});
+
+test('recipe language is validated, persisted, separated in cache and retained on refinement', async () => {
+  const first = await send('post', '/generate').send({ ...input, language: 'Telugu' }).expect(201);
+  assert.equal(first.body.recipe.preferences.language, 'Telugu');
+  assert.match(calls[0].systemInstruction, /in Telugu/);
+  const english = await send('post', '/generate').send({ ...input, language: 'English' }).expect(201);
+  assert.equal(english.body.cached, false);
+  assert.equal(calls.length, 2);
+  const cached = await send('post', '/generate').send({ ...input, language: 'Telugu' }).expect(201);
+  assert.equal(cached.body.cached, true);
+  const refined = await send('post', '/refine').send({ recipeId: first.body.recipe._id, refinement: 'healthier' }).expect(201);
+  assert.equal(refined.body.recipe.preferences.language, 'Telugu');
+  assert.match(calls.at(-1).systemInstruction, /in Telugu/);
+  await send('post', '/generate').send({ ...input, language: 'unsupported' }).expect(400);
 });
 test('input and output validation prevent unsafe persistence', async () => {
   await send('post', '/generate').send({ ...input, dietType: ['vegan'] }).expect(400);

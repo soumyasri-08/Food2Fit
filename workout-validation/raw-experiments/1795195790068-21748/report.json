@@ -1,0 +1,87 @@
+{
+  "modelType": "experimental raw-workout logistic regression",
+  "totalExamples": 10000,
+  "splitCounts": {
+    "train": 7000,
+    "validation": 1500,
+    "test": 1500
+  },
+  "dataHashes": {
+    "train": "3ad1db79dd1c05cc1be93fcdbde12c5669c49555bc2a5db99664143ba6f9134c",
+    "validation": "da88da148fa6340d26197516d8403990452d98a31b5df686dcdffbff9ba54d1c",
+    "test": "f0b6f35165e2cd4ac66afe924bd1df9b6c5c7361e9bcacb792a295149d3f65d6"
+  },
+  "features": [
+    "plannedDays",
+    "actualDays",
+    "uniqueDays",
+    "scheduledDaysPresent",
+    "exerciseCount",
+    "meanUniqueExercisesPerDay",
+    "knownExerciseFraction",
+    "userEquipmentLevel",
+    "noEquipmentFraction",
+    "homeEquipmentFraction",
+    "gymEquipmentFraction",
+    "cardioFraction",
+    "setsMinimum",
+    "setsMaximum",
+    "setsMean",
+    "repetitionsMinimum",
+    "repetitionsMaximum",
+    "repetitionsMean",
+    "workSecondsMinimum",
+    "workSecondsMaximum",
+    "workSecondsMean",
+    "restSecondsMinimum",
+    "restSecondsMaximum",
+    "restSecondsMean"
+  ],
+  "threshold": 0.357,
+  "thresholdSelection": "Maximum macro-F1 on validation only; scaling and class weights fitted on training only.",
+  "validation": {
+    "count": 1500,
+    "classified": 1500,
+    "abstainedOnLabeledCases": 0,
+    "expectedAbstentions": 0,
+    "correctAbstentions": 0,
+    "classificationCoverage": 1,
+    "accuracy": 0.924,
+    "precision": 0.9744612928970471,
+    "recall": 0.9370683039140445,
+    "f1": 0.9553990610328639,
+    "specificity": 0.8375634517766497,
+    "confusion": {
+      "tp": 1221,
+      "tn": 165,
+      "fp": 32,
+      "fn": 82
+    },
+    "macroF1": 0.8493211521380535
+  },
+  "test": {
+    "count": 1500,
+    "classified": 1500,
+    "abstainedOnLabeledCases": 0,
+    "expectedAbstentions": 0,
+    "correctAbstentions": 0,
+    "classificationCoverage": 1,
+    "accuracy": 0.9146666666666666,
+    "precision": 0.9741727199354318,
+    "recall": 0.9263238679969301,
+    "f1": 0.9496459480723839,
+    "specificity": 0.8375634517766497,
+    "confusion": {
+      "tp": 1207,
+      "tn": 165,
+      "fp": 32,
+      "fn": 96
+    },
+    "macroF1": 0.8350849827698164
+  },
+  "limitations": [
+    "Labels remain synthetic project-rule labels. Test cases were previously evaluated with an earlier model.",
+    "Raw summary features may lose per-exercise and equipment relationships. This is an experimental baseline.",
+    "Scores describe the dataset distribution; independent expert evaluation remains pending."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "home-muscle-gain",
+  "input": {
+    "equipment": "home",
+    "expectedDays": [
+      1
+    ],
+    "days": [
+      {
+        "day": 1,
+        "exercises": [
+          {
+            "exerciseId": "1",
+            "sets": 3,
+            "repetitions": 10,
+            "workSeconds": 0,
+            "restSeconds": 60,
+            "name": "Wall push-up"
+          },
+          {
+            "exerciseId": "13",
+            "sets": 3,
+            "repetitions": 12,
+            "workSeconds": 0,
+            "restSeconds": 60,
+            "name": "Dumbbell row"
+          },
+          {
+            "exerciseId": "15",
+            "sets": 3,
+            "repetitions": 8,
+            "workSeconds": 0,
+            "restSeconds": 60,
+            "name": "Goblet squat"
+          },
+          {
+            "exerciseId": "17",
+            "sets": 3,
+            "repetitions": 12,
+            "workSeconds": 0,
+            "restSeconds": 60,
+            "name": "Band Pallof press"
+          }
+        ]
+      }
+    ]
+  },
+  "automatedReference": {
+    "label": 0,
+    "reasons": []
+  },
+  "humanReview": null
+}

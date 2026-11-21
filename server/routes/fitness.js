@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const auth = require('../middleware/auth');
 const { asyncHandler } = require('../middleware/errors');
-const { planLimiter } = require('../middleware/rateLimit');
+const { planLimiter, aiIpLimiter, aiUserLimiter } = require('../middleware/rateLimit');
 const { profileRules, progressRules, progressQuery, noQuery, noBody } = require('../middleware/fitnessValidation');
 const controller = require('../controllers/fitnessController');
 router.use((req, res, next) => { res.set('Cache-Control', 'no-store'); next(); });
@@ -11,6 +11,8 @@ router.get('/profile', noQuery, noBody, asyncHandler(controller.getProfile));
 router.put('/profile', noQuery, profileRules(), asyncHandler(controller.updateProfile));
 router.delete('/profile', noQuery, noBody, asyncHandler(controller.deleteProfile));
 router.post('/generate-plan', noQuery, noBody, planLimiter, asyncHandler(controller.generatePlan));
+router.post('/generate-ai-plan', noQuery, noBody, aiIpLimiter, aiUserLimiter, asyncHandler(controller.generateAIPlan));
+router.post('/generate-workout', noQuery, noBody, aiIpLimiter, aiUserLimiter, asyncHandler(controller.generateAIWorkout));
 router.get('/plan', noQuery, noBody, asyncHandler(controller.getPlan));
 router.post('/log-progress', noQuery, progressRules(), asyncHandler(controller.logProgress));
 router.get('/progress', noBody, progressQuery, asyncHandler(controller.getProgress));

@@ -1,0 +1,2191 @@
+{
+  "version": "protein-nap-v1.1-selection-54-v1",
+  "foods": [
+    {
+      "name": "Apples, raw, with skin",
+      "normalizedName": "apples, raw, with skin",
+      "category": "fruit",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.81,
+      "fat": 0.17,
+      "fiber": 2.4,
+      "servingGrams": 182,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-1"
+    },
+    {
+      "name": "Apricots, raw",
+      "normalizedName": "apricots, raw",
+      "category": "fruit",
+      "calories": 48,
+      "protein": 1.4,
+      "carbs": 11.12,
+      "fat": 0.39,
+      "fiber": 2,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-2"
+    },
+    {
+      "name": "Avocados, raw, California",
+      "normalizedName": "avocados, raw, california",
+      "category": "fruit",
+      "calories": 167,
+      "protein": 1.96,
+      "carbs": 8.64,
+      "fat": 15.41,
+      "fiber": 6.8,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-3"
+    },
+    {
+      "name": "Bananas, raw",
+      "normalizedName": "bananas, raw",
+      "category": "fruit",
+      "calories": 89,
+      "protein": 1.09,
+      "carbs": 22.84,
+      "fat": 0.33,
+      "fiber": 2.6,
+      "servingGrams": 118,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-4"
+    },
+    {
+      "name": "Blueberries, raw",
+      "normalizedName": "blueberries, raw",
+      "category": "fruit",
+      "calories": 57,
+      "protein": 0.74,
+      "carbs": 14.49,
+      "fat": 0.33,
+      "fiber": 2.4,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-5"
+    },
+    {
+      "name": "Clementines, raw",
+      "normalizedName": "clementines, raw",
+      "category": "fruit",
+      "calories": 47,
+      "protein": 0.85,
+      "carbs": 12.02,
+      "fat": 0.15,
+      "fiber": 1.7,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-6"
+    },
+    {
+      "name": "Grapes, red or green (European type, such as Thompson seedless), raw",
+      "normalizedName": "grapes, red or green (european type, such as thompson seedless), raw",
+      "category": "fruit",
+      "calories": 69,
+      "protein": 0.72,
+      "carbs": 18.1,
+      "fat": 0.16,
+      "fiber": 0.9,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-7"
+    },
+    {
+      "name": "Kiwifruit, green, raw",
+      "normalizedName": "kiwifruit, green, raw",
+      "category": "fruit",
+      "calories": 61,
+      "protein": 1.14,
+      "carbs": 14.66,
+      "fat": 0.52,
+      "fiber": 3,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-8"
+    },
+    {
+      "name": "Mangos, raw",
+      "normalizedName": "mangos, raw",
+      "category": "fruit",
+      "calories": 60,
+      "protein": 0.82,
+      "carbs": 14.98,
+      "fat": 0.38,
+      "fiber": 1.6,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-9"
+    },
+    {
+      "name": "Melons, cantaloupe, raw",
+      "normalizedName": "melons, cantaloupe, raw",
+      "category": "fruit",
+      "calories": 34,
+      "protein": 0.84,
+      "carbs": 8.16,
+      "fat": 0.19,
+      "fiber": 0.9,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-10"
+    },
+    {
+      "name": "Strawberries, raw",
+      "normalizedName": "strawberries, raw",
+      "category": "fruit",
+      "calories": 32,
+      "protein": 0.67,
+      "carbs": 7.68,
+      "fat": 0.3,
+      "fiber": 2,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-11"
+    },
+    {
+      "name": "Tangerines, (mandarin oranges), raw",
+      "normalizedName": "tangerines, (mandarin oranges), raw",
+      "category": "fruit",
+      "calories": 53,
+      "protein": 0.81,
+      "carbs": 13.34,
+      "fat": 0.31,
+      "fiber": 1.8,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-12"
+    },
+    {
+      "name": "Beans, black, mature seeds, cooked, boiled, without salt",
+      "normalizedName": "beans, black, mature seeds, cooked, boiled, without salt",
+      "category": "legume",
+      "calories": 132,
+      "protein": 8.86,
+      "carbs": 23.71,
+      "fat": 0.54,
+      "fiber": 8.7,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-13"
+    },
+    {
+      "name": "Beans, white, mature seeds, cooked, boiled, without salt",
+      "normalizedName": "beans, white, mature seeds, cooked, boiled, without salt",
+      "category": "legume",
+      "calories": 139,
+      "protein": 9.73,
+      "carbs": 25.09,
+      "fat": 0.35,
+      "fiber": 6.3,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-14"
+    },
+    {
+      "name": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+      "normalizedName": "chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+      "category": "legume",
+      "calories": 164,
+      "protein": 8.86,
+      "carbs": 27.42,
+      "fat": 2.59,
+      "fiber": 7.6,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-15"
+    },
+    {
+      "name": "Lentils, mature seeds, cooked, boiled, without salt",
+      "normalizedName": "lentils, mature seeds, cooked, boiled, without salt",
+      "category": "legume",
+      "calories": 116,
+      "protein": 9.02,
+      "carbs": 20.13,
+      "fat": 0.38,
+      "fiber": 7.9,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-16"
+    },
+    {
+      "name": "Edamame, frozen, prepared",
+      "normalizedName": "edamame, frozen, prepared",
+      "category": "legume",
+      "calories": 121,
+      "protein": 11.91,
+      "carbs": 8.91,
+      "fat": 5.2,
+      "fiber": 5.2,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-17"
+    },
+    {
+      "name": "Artichokes, (globe or french), cooked, boiled, drained, without salt",
+      "normalizedName": "artichokes, (globe or french), cooked, boiled, drained, without salt",
+      "category": "vegetable",
+      "calories": 53,
+      "protein": 2.89,
+      "carbs": 11.95,
+      "fat": 0.34,
+      "fiber": 5.7,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-18"
+    },
+    {
+      "name": "Asparagus, cooked, boiled, drained",
+      "normalizedName": "asparagus, cooked, boiled, drained",
+      "category": "vegetable",
+      "calories": 22,
+      "protein": 2.4,
+      "carbs": 4.11,
+      "fat": 0.22,
+      "fiber": 2,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-19"
+    },
+    {
+      "name": "Beans, snap, green, frozen, cooked, boiled, drained without salt",
+      "normalizedName": "beans, snap, green, frozen, cooked, boiled, drained without salt",
+      "category": "vegetable",
+      "calories": 28,
+      "protein": 1.49,
+      "carbs": 6.45,
+      "fat": 0.17,
+      "fiber": 3,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-20"
+    },
+    {
+      "name": "Broccoli, cooked, boiled, drained, without salt",
+      "normalizedName": "broccoli, cooked, boiled, drained, without salt",
+      "category": "vegetable",
+      "calories": 35,
+      "protein": 2.38,
+      "carbs": 7.18,
+      "fat": 0.41,
+      "fiber": 3.3,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-21"
+    },
+    {
+      "name": "Brussels sprouts, cooked, boiled, drained, without salt",
+      "normalizedName": "brussels sprouts, cooked, boiled, drained, without salt",
+      "category": "vegetable",
+      "calories": 36,
+      "protein": 2.55,
+      "carbs": 7.1,
+      "fat": 0.5,
+      "fiber": 2.6,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-22"
+    },
+    {
+      "name": "Carrots, cooked, boiled, drained, without salt",
+      "normalizedName": "carrots, cooked, boiled, drained, without salt",
+      "category": "vegetable",
+      "calories": 35,
+      "protein": 0.76,
+      "carbs": 8.22,
+      "fat": 0.18,
+      "fiber": 3,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-23"
+    },
+    {
+      "name": "Cauliflower, cooked, boiled, drained, without salt",
+      "normalizedName": "cauliflower, cooked, boiled, drained, without salt",
+      "category": "vegetable",
+      "calories": 23,
+      "protein": 1.84,
+      "carbs": 4.11,
+      "fat": 0.45,
+      "fiber": 2.3,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-24"
+    },
+    {
+      "name": "Cucumber, peeled, raw",
+      "normalizedName": "cucumber, peeled, raw",
+      "category": "vegetable",
+      "calories": 10,
+      "protein": 0.59,
+      "carbs": 2.16,
+      "fat": 0.16,
+      "fiber": 0.7,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-25"
+    },
+    {
+      "name": "Eggplant, cooked, boiled, drained, without salt",
+      "normalizedName": "eggplant, cooked, boiled, drained, without salt",
+      "category": "vegetable",
+      "calories": 35,
+      "protein": 0.83,
+      "carbs": 8.73,
+      "fat": 0.23,
+      "fiber": 2.5,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-26"
+    },
+    {
+      "name": "Lettuce, cos or romaine, raw",
+      "normalizedName": "lettuce, cos or romaine, raw",
+      "category": "vegetable",
+      "calories": 17,
+      "protein": 1.23,
+      "carbs": 3.29,
+      "fat": 0.3,
+      "fiber": 2.1,
+      "servingGrams": 80,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-27"
+    },
+    {
+      "name": "Mushrooms, white, cooked, boiled, drained, without salt",
+      "normalizedName": "mushrooms, white, cooked, boiled, drained, without salt",
+      "category": "vegetable",
+      "calories": 28,
+      "protein": 2.17,
+      "carbs": 5.29,
+      "fat": 0.47,
+      "fiber": 2.2,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-28"
+    },
+    {
+      "name": "Spinach, frozen, chopped or leaf, cooked, boiled, drained, without salt",
+      "normalizedName": "spinach, frozen, chopped or leaf, cooked, boiled, drained, without salt",
+      "category": "vegetable",
+      "calories": 34,
+      "protein": 4.01,
+      "carbs": 4.8,
+      "fat": 0.87,
+      "fiber": 3.7,
+      "servingGrams": 100,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-29"
+    },
+    {
+      "name": "Sweet potato, cooked, boiled, without skin",
+      "normalizedName": "sweet potato, cooked, boiled, without skin",
+      "category": "starch",
+      "calories": 76,
+      "protein": 1.37,
+      "carbs": 17.72,
+      "fat": 0.14,
+      "fiber": 2.5,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-30"
+    },
+    {
+      "name": "Tomatoes, red, ripe, raw, year round average",
+      "normalizedName": "tomatoes, red, ripe, raw, year round average",
+      "category": "vegetable",
+      "calories": 18,
+      "protein": 0.88,
+      "carbs": 3.89,
+      "fat": 0.2,
+      "fiber": 1.2,
+      "servingGrams": 120,
+      "dietTags": [
+        "vegan",
+        "keto",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-31"
+    },
+    {
+      "name": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+      "normalizedName": "cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+      "category": "grain",
+      "calories": 71,
+      "protein": 2.54,
+      "carbs": 12,
+      "fat": 1.52,
+      "fiber": 1.7,
+      "servingGrams": 200,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-32"
+    },
+    {
+      "name": "Couscous, cooked",
+      "normalizedName": "couscous, cooked",
+      "category": "grain",
+      "calories": 112,
+      "protein": 3.79,
+      "carbs": 23.22,
+      "fat": 0.16,
+      "fiber": 1.4,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-33"
+    },
+    {
+      "name": "Pasta, whole-wheat, cooked",
+      "normalizedName": "pasta, whole-wheat, cooked",
+      "category": "grain",
+      "calories": 149,
+      "protein": 5.99,
+      "carbs": 30.07,
+      "fat": 1.71,
+      "fiber": 3.9,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "wheat",
+        "gluten"
+      ],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-34"
+    },
+    {
+      "name": "Quinoa, cooked",
+      "normalizedName": "quinoa, cooked",
+      "category": "grain",
+      "calories": 120,
+      "protein": 4.4,
+      "carbs": 21.3,
+      "fat": 1.92,
+      "fiber": 2.8,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-35"
+    },
+    {
+      "name": "Rice, brown, long-grain, cooked",
+      "normalizedName": "rice, brown, long-grain, cooked",
+      "category": "grain",
+      "calories": 123,
+      "protein": 2.74,
+      "carbs": 25.58,
+      "fat": 0.97,
+      "fiber": 1.6,
+      "servingGrams": 150,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-36"
+    },
+    {
+      "name": "Nuts, almonds",
+      "normalizedName": "nuts, almonds",
+      "category": "nuts",
+      "calories": 579,
+      "protein": 21.15,
+      "carbs": 21.55,
+      "fat": 49.93,
+      "fiber": 12.5,
+      "servingGrams": 30,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "tree-nut"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-37"
+    },
+    {
+      "name": "Nuts, cashew nuts, raw",
+      "normalizedName": "nuts, cashew nuts, raw",
+      "category": "nuts",
+      "calories": 553,
+      "protein": 18.22,
+      "carbs": 30.19,
+      "fat": 43.85,
+      "fiber": 3.3,
+      "servingGrams": 30,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "tree-nut"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-38"
+    },
+    {
+      "name": "Nuts, hazelnuts or filberts",
+      "normalizedName": "nuts, hazelnuts or filberts",
+      "category": "nuts",
+      "calories": 628,
+      "protein": 14.95,
+      "carbs": 16.7,
+      "fat": 60.75,
+      "fiber": 9.7,
+      "servingGrams": 30,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "tree-nut"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-39"
+    },
+    {
+      "name": "Nuts, pecans",
+      "normalizedName": "nuts, pecans",
+      "category": "nuts",
+      "calories": 691,
+      "protein": 9.17,
+      "carbs": 13.86,
+      "fat": 71.97,
+      "fiber": 9.6,
+      "servingGrams": 30,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "tree-nut"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-40"
+    },
+    {
+      "name": "Nuts, walnuts, english",
+      "normalizedName": "nuts, walnuts, english",
+      "category": "nuts",
+      "calories": 654,
+      "protein": 15.23,
+      "carbs": 13.71,
+      "fat": 65.21,
+      "fiber": 6.7,
+      "servingGrams": 30,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "tree-nut"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-41"
+    },
+    {
+      "name": "Peanuts, all types, dry-roasted, without salt",
+      "normalizedName": "peanuts, all types, dry-roasted, without salt",
+      "category": "nuts",
+      "calories": 587,
+      "protein": 24.35,
+      "carbs": 21.26,
+      "fat": 49.66,
+      "fiber": 8.4,
+      "servingGrams": 30,
+      "dietTags": [
+        "vegan",
+        "veg"
+      ],
+      "allergens": [
+        "peanut"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-42"
+    },
+    {
+      "name": "Cheese, cottage, lowfat, 1% milkfat",
+      "normalizedName": "cheese, cottage, lowfat, 1% milkfat",
+      "category": "dairy",
+      "calories": 72,
+      "protein": 12.39,
+      "carbs": 2.72,
+      "fat": 1.02,
+      "fiber": 0,
+      "servingGrams": 150,
+      "dietTags": [
+        "veg",
+        "keto"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-43"
+    },
+    {
+      "name": "Yogurt, Greek, plain, nonfat",
+      "normalizedName": "yogurt, greek, plain, nonfat",
+      "category": "dairy",
+      "calories": 59,
+      "protein": 10.19,
+      "carbs": 3.6,
+      "fat": 0.39,
+      "fiber": 0,
+      "servingGrams": 170,
+      "dietTags": [
+        "veg",
+        "keto"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-44"
+    },
+    {
+      "name": "Yogurt, plain, low fat",
+      "normalizedName": "yogurt, plain, low fat",
+      "category": "dairy",
+      "calories": 63,
+      "protein": 5.25,
+      "carbs": 7.04,
+      "fat": 1.55,
+      "fiber": 0,
+      "servingGrams": 170,
+      "dietTags": [
+        "veg",
+        "keto"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-45"
+    },
+    {
+      "name": "Milk, chocolate, fat free, with added vitamin A and vitamin D",
+      "normalizedName": "milk, chocolate, fat free, with added vitamin a and vitamin d",
+      "category": "dairy",
+      "calories": 67,
+      "protein": 3.39,
+      "carbs": 13.46,
+      "fat": 0,
+      "fiber": 0,
+      "servingGrams": 170,
+      "dietTags": [
+        "veg"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-46"
+    },
+    {
+      "name": "Egg, whole, cooked, hard-boiled",
+      "normalizedName": "egg, whole, cooked, hard-boiled",
+      "category": "egg",
+      "calories": 155,
+      "protein": 12.58,
+      "carbs": 1.12,
+      "fat": 10.61,
+      "fiber": 0,
+      "servingGrams": 100,
+      "dietTags": [
+        "non-veg",
+        "keto"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-47"
+    },
+    {
+      "name": "Egg, whole, cooked, poached",
+      "normalizedName": "egg, whole, cooked, poached",
+      "category": "egg",
+      "calories": 143,
+      "protein": 12.51,
+      "carbs": 0.71,
+      "fat": 9.47,
+      "fiber": 0,
+      "servingGrams": 100,
+      "dietTags": [
+        "non-veg",
+        "keto"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "mealTypes": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-48"
+    },
+    {
+      "name": "Fish, cod, Atlantic, cooked, dry heat",
+      "normalizedName": "fish, cod, atlantic, cooked, dry heat",
+      "category": "fish",
+      "calories": 105,
+      "protein": 22.83,
+      "carbs": 0,
+      "fat": 0.86,
+      "fiber": 0,
+      "servingGrams": 150,
+      "dietTags": [
+        "non-veg",
+        "keto"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-49"
+    },
+    {
+      "name": "Fish, salmon, Atlantic, wild, cooked, dry heat",
+      "normalizedName": "fish, salmon, atlantic, wild, cooked, dry heat",
+      "category": "fish",
+      "calories": 182,
+      "protein": 25.44,
+      "carbs": 0,
+      "fat": 8.13,
+      "fiber": 0,
+      "servingGrams": 150,
+      "dietTags": [
+        "non-veg",
+        "keto"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-50"
+    },
+    {
+      "name": "Fish, salmon, coho, farmed, cooked, dry heat",
+      "normalizedName": "fish, salmon, coho, farmed, cooked, dry heat",
+      "category": "fish",
+      "calories": 178,
+      "protein": 24.3,
+      "carbs": 0,
+      "fat": 8.23,
+      "fiber": 0,
+      "servingGrams": 150,
+      "dietTags": [
+        "non-veg",
+        "keto"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-51"
+    },
+    {
+      "name": "Fish, tuna, light, canned in water, without salt, drained solids",
+      "normalizedName": "fish, tuna, light, canned in water, without salt, drained solids",
+      "category": "fish",
+      "calories": 116,
+      "protein": 25.51,
+      "carbs": 0,
+      "fat": 0.82,
+      "fiber": 0,
+      "servingGrams": 150,
+      "dietTags": [
+        "non-veg",
+        "keto"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-52"
+    },
+    {
+      "name": "Beef, flank, steak, separable lean only, trimmed to 0\" fat, choice, cooked, braised",
+      "normalizedName": "beef, flank, steak, separable lean only, trimmed to 0\" fat, choice, cooked, braised",
+      "category": "meat",
+      "calories": 237,
+      "protein": 28.02,
+      "carbs": 0,
+      "fat": 13,
+      "fiber": 0,
+      "servingGrams": 150,
+      "dietTags": [
+        "non-veg",
+        "keto"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-53"
+    },
+    {
+      "name": "Veal, leg, top round, cap off, cutlet, boneless, cooked, grilled",
+      "normalizedName": "veal, leg, top round, cap off, cutlet, boneless, cooked, grilled",
+      "category": "meat",
+      "calories": 151,
+      "protein": 31.89,
+      "carbs": 0,
+      "fat": 2.63,
+      "fiber": 0,
+      "servingGrams": 150,
+      "dietTags": [
+        "non-veg",
+        "keto"
+      ],
+      "allergens": [],
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "source": "PROTEIN NAP v1.1 (Zenodo 7308053); Food2Fit classifications",
+      "_id": "protein-nap-54"
+    }
+  ],
+  "exercises": [
+    {
+      "name": "Wall push-up",
+      "muscleGroup": "chest",
+      "equipment": "none",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-1"
+    },
+    {
+      "name": "Knee push-up",
+      "muscleGroup": "chest",
+      "equipment": "none",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-2"
+    },
+    {
+      "name": "Standing reverse fly without weights",
+      "muscleGroup": "upper back",
+      "equipment": "none",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-3"
+    },
+    {
+      "name": "Prone W raise",
+      "muscleGroup": "upper back",
+      "equipment": "none",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-4"
+    },
+    {
+      "name": "Bodyweight squat",
+      "muscleGroup": "legs",
+      "equipment": "none",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-5"
+    },
+    {
+      "name": "Glute bridge",
+      "muscleGroup": "glutes",
+      "equipment": "none",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-6"
+    },
+    {
+      "name": "Bird dog",
+      "muscleGroup": "core",
+      "equipment": "none",
+      "movement": "core",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-7"
+    },
+    {
+      "name": "Dead bug",
+      "muscleGroup": "core",
+      "equipment": "none",
+      "movement": "core",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-8"
+    },
+    {
+      "name": "Marching in place",
+      "muscleGroup": "cardio",
+      "equipment": "none",
+      "movement": "cardio",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-9"
+    },
+    {
+      "name": "Easy walking",
+      "muscleGroup": "cardio",
+      "equipment": "none",
+      "movement": "cardio",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-10"
+    },
+    {
+      "name": "Dumbbell floor press",
+      "muscleGroup": "chest",
+      "equipment": "home",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-11"
+    },
+    {
+      "name": "Band chest press",
+      "muscleGroup": "chest",
+      "equipment": "home",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-12"
+    },
+    {
+      "name": "Dumbbell row",
+      "muscleGroup": "back",
+      "equipment": "home",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-13"
+    },
+    {
+      "name": "Band row",
+      "muscleGroup": "back",
+      "equipment": "home",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-14"
+    },
+    {
+      "name": "Goblet squat",
+      "muscleGroup": "legs",
+      "equipment": "home",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-15"
+    },
+    {
+      "name": "Dumbbell Romanian deadlift",
+      "muscleGroup": "legs",
+      "equipment": "home",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-16"
+    },
+    {
+      "name": "Band Pallof press",
+      "muscleGroup": "core",
+      "equipment": "home",
+      "movement": "core",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-17"
+    },
+    {
+      "name": "Machine chest press",
+      "muscleGroup": "chest",
+      "equipment": "gym",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-18"
+    },
+    {
+      "name": "Cable chest press",
+      "muscleGroup": "chest",
+      "equipment": "gym",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-19"
+    },
+    {
+      "name": "Lat pulldown",
+      "muscleGroup": "back",
+      "equipment": "gym",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-20"
+    },
+    {
+      "name": "Seated cable row",
+      "muscleGroup": "back",
+      "equipment": "gym",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-21"
+    },
+    {
+      "name": "Leg press",
+      "muscleGroup": "legs",
+      "equipment": "gym",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-22"
+    },
+    {
+      "name": "Seated leg curl",
+      "muscleGroup": "legs",
+      "equipment": "gym",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-23"
+    },
+    {
+      "name": "Stationary cycling",
+      "muscleGroup": "cardio",
+      "equipment": "gym",
+      "movement": "cardio",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-24"
+    },
+    {
+      "name": "Standard push-up",
+      "muscleGroup": "chest",
+      "equipment": "none",
+      "movement": "push",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-25"
+    },
+    {
+      "name": "Close-grip knee push-up",
+      "muscleGroup": "triceps",
+      "equipment": "none",
+      "movement": "push",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-26"
+    },
+    {
+      "name": "Scapular push-up",
+      "muscleGroup": "shoulders",
+      "equipment": "none",
+      "movement": "push",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-27"
+    },
+    {
+      "name": "Prone Y raise",
+      "muscleGroup": "upper back",
+      "equipment": "none",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-28"
+    },
+    {
+      "name": "Prone T raise",
+      "muscleGroup": "upper back",
+      "equipment": "none",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-29"
+    },
+    {
+      "name": "Reverse snow angel",
+      "muscleGroup": "upper back",
+      "equipment": "none",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-30"
+    },
+    {
+      "name": "Reverse lunge",
+      "muscleGroup": "legs",
+      "equipment": "none",
+      "movement": "legs",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-31"
+    },
+    {
+      "name": "Forward lunge",
+      "muscleGroup": "legs",
+      "equipment": "none",
+      "movement": "legs",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-32"
+    },
+    {
+      "name": "Lateral lunge",
+      "muscleGroup": "legs",
+      "equipment": "none",
+      "movement": "legs",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-33"
+    },
+    {
+      "name": "Standing calf raise",
+      "muscleGroup": "calves",
+      "equipment": "none",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-34"
+    },
+    {
+      "name": "Side-lying hip abduction",
+      "muscleGroup": "glutes",
+      "equipment": "none",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-35"
+    },
+    {
+      "name": "Single-leg glute bridge",
+      "muscleGroup": "glutes",
+      "equipment": "none",
+      "movement": "legs",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-36"
+    },
+    {
+      "name": "Supine heel tap",
+      "muscleGroup": "core",
+      "equipment": "none",
+      "movement": "core",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-37"
+    },
+    {
+      "name": "Reverse crunch",
+      "muscleGroup": "core",
+      "equipment": "none",
+      "movement": "core",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-38"
+    },
+    {
+      "name": "Step jack",
+      "muscleGroup": "cardio",
+      "equipment": "none",
+      "movement": "cardio",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-39"
+    },
+    {
+      "name": "Side-to-side step touch",
+      "muscleGroup": "cardio",
+      "equipment": "none",
+      "movement": "cardio",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-40"
+    },
+    {
+      "name": "Standing dumbbell shoulder press",
+      "muscleGroup": "shoulders",
+      "equipment": "home",
+      "movement": "push",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-41"
+    },
+    {
+      "name": "Dumbbell triceps kickback",
+      "muscleGroup": "triceps",
+      "equipment": "home",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-42"
+    },
+    {
+      "name": "Dumbbell overhead triceps extension",
+      "muscleGroup": "triceps",
+      "equipment": "home",
+      "movement": "push",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-43"
+    },
+    {
+      "name": "Resistance-band overhead press",
+      "muscleGroup": "shoulders",
+      "equipment": "home",
+      "movement": "push",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-44"
+    },
+    {
+      "name": "Dumbbell bent-over reverse fly",
+      "muscleGroup": "upper back",
+      "equipment": "home",
+      "movement": "pull",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-45"
+    },
+    {
+      "name": "Dumbbell biceps curl",
+      "muscleGroup": "biceps",
+      "equipment": "home",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-46"
+    },
+    {
+      "name": "Dumbbell hammer curl",
+      "muscleGroup": "biceps",
+      "equipment": "home",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-47"
+    },
+    {
+      "name": "Resistance-band pull-apart",
+      "muscleGroup": "upper back",
+      "equipment": "home",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-48"
+    },
+    {
+      "name": "Resistance-band biceps curl",
+      "muscleGroup": "biceps",
+      "equipment": "home",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-49"
+    },
+    {
+      "name": "Dumbbell reverse lunge",
+      "muscleGroup": "legs",
+      "equipment": "home",
+      "movement": "legs",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-50"
+    },
+    {
+      "name": "Dumbbell split squat",
+      "muscleGroup": "legs",
+      "equipment": "home",
+      "movement": "legs",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-51"
+    },
+    {
+      "name": "Dumbbell calf raise",
+      "muscleGroup": "calves",
+      "equipment": "home",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-52"
+    },
+    {
+      "name": "Mini-band lateral walk",
+      "muscleGroup": "glutes",
+      "equipment": "home",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-53"
+    },
+    {
+      "name": "Banded glute bridge",
+      "muscleGroup": "glutes",
+      "equipment": "home",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-54"
+    },
+    {
+      "name": "Standing band trunk rotation",
+      "muscleGroup": "core",
+      "equipment": "home",
+      "movement": "core",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-55"
+    },
+    {
+      "name": "Jump rope",
+      "muscleGroup": "cardio",
+      "equipment": "home",
+      "movement": "cardio",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-56"
+    },
+    {
+      "name": "Incline machine chest press",
+      "muscleGroup": "chest",
+      "equipment": "gym",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-57"
+    },
+    {
+      "name": "Machine shoulder press",
+      "muscleGroup": "shoulders",
+      "equipment": "gym",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-58"
+    },
+    {
+      "name": "Cable triceps pushdown",
+      "muscleGroup": "triceps",
+      "equipment": "gym",
+      "movement": "push",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-59"
+    },
+    {
+      "name": "Dumbbell bench press",
+      "muscleGroup": "chest",
+      "equipment": "gym",
+      "movement": "push",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-60"
+    },
+    {
+      "name": "Incline dumbbell bench press",
+      "muscleGroup": "chest",
+      "equipment": "gym",
+      "movement": "push",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-61"
+    },
+    {
+      "name": "Chest-supported dumbbell row",
+      "muscleGroup": "back",
+      "equipment": "gym",
+      "movement": "pull",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-62"
+    },
+    {
+      "name": "Machine seated row",
+      "muscleGroup": "back",
+      "equipment": "gym",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-63"
+    },
+    {
+      "name": "Cable face pull",
+      "muscleGroup": "upper back",
+      "equipment": "gym",
+      "movement": "pull",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-64"
+    },
+    {
+      "name": "Cable biceps curl",
+      "muscleGroup": "biceps",
+      "equipment": "gym",
+      "movement": "pull",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-65"
+    },
+    {
+      "name": "Machine leg extension",
+      "muscleGroup": "quadriceps",
+      "equipment": "gym",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-66"
+    },
+    {
+      "name": "Lying leg curl",
+      "muscleGroup": "hamstrings",
+      "equipment": "gym",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-67"
+    },
+    {
+      "name": "Machine hip abduction",
+      "muscleGroup": "glutes",
+      "equipment": "gym",
+      "movement": "legs",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-68"
+    },
+    {
+      "name": "Cable Pallof press",
+      "muscleGroup": "core",
+      "equipment": "gym",
+      "movement": "core",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-69"
+    },
+    {
+      "name": "Cable wood chop",
+      "muscleGroup": "core",
+      "equipment": "gym",
+      "movement": "core",
+      "difficulty": "intermediate",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-70"
+    },
+    {
+      "name": "Treadmill walking",
+      "muscleGroup": "cardio",
+      "equipment": "gym",
+      "movement": "cardio",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-71"
+    },
+    {
+      "name": "Elliptical trainer",
+      "muscleGroup": "cardio",
+      "equipment": "gym",
+      "movement": "cardio",
+      "difficulty": "beginner",
+      "goalTags": [
+        "fat-loss",
+        "muscle-gain",
+        "maintenance"
+      ],
+      "_id": "exercise-72"
+    }
+  ]
+}

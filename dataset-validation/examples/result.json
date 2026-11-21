@@ -1,0 +1,19 @@
+{
+  "status": "likely_inconsistent",
+  "modelScore": 0.999954620708579,
+  "expectedPerServing": {
+    "calories": 394.935,
+    "protein": 11.33065,
+    "carbs": 58.97460000000001,
+    "fat": 14.698249999999998,
+    "fiber": 7.9975
+  },
+  "reportedPerServing": {
+    "calories": 408.93434560230094,
+    "protein": 10.644726206573791,
+    "carbs": 67.26811065016497,
+    "fat": 12.499256997512552,
+    "fiber": 20.815938774347305
+  },
+  "notice": "Synthetic-trained nutrition consistency prototype. Score is not calibrated confidence. Not a safety or medical assessment."
+}

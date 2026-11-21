@@ -1,0 +1,30 @@
+{
+  "scope": "Three real provider requests using the application workout prompt. One-day fictional profiles.",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "scenarios": [
+    {
+      "id": "none-maintenance",
+      "equipment": "none",
+      "goal": "maintenance"
+    },
+    {
+      "id": "home-muscle-gain",
+      "equipment": "home",
+      "goal": "muscle-gain"
+    },
+    {
+      "id": "gym-fat-loss",
+      "equipment": "gym",
+      "goal": "fat-loss"
+    }
+  ],
+  "labels": "Automated independent code implementation of project rules; human review pending.",
+  "labelMapping": {
+    "0": "passes seven checked rules",
+    "1": "violates checked rules"
+  },
+  "validatorModelSha256": "df5b93364bb001411157806086d47846b4d2a00b614f32fc0ca4564954c8dee5",
+  "reviewerSha256": "4c719b2502eb4f327304a8eb6472fd91fae7eac090dd3af1a9850fefe136ad56",
+  "constraints": "No retraining or threshold selection. Keep all returned proposals including application rejection. Provider/schema failures recorded separately."
+}

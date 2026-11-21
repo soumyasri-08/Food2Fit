@@ -1,0 +1,53 @@
+{
+  "id": "gym-fat-loss",
+  "input": {
+    "equipment": "gym",
+    "expectedDays": [
+      1
+    ],
+    "days": [
+      {
+        "day": 1,
+        "exercises": [
+          {
+            "exerciseId": "11",
+            "repetitions": 10,
+            "sets": 3,
+            "workSeconds": 0,
+            "restSeconds": 90,
+            "name": "Dumbbell floor press"
+          },
+          {
+            "exerciseId": "20",
+            "repetitions": 12,
+            "sets": 3,
+            "workSeconds": 0,
+            "restSeconds": 90,
+            "name": "Lat pulldown"
+          },
+          {
+            "exerciseId": "15",
+            "repetitions": 12,
+            "sets": 3,
+            "workSeconds": 0,
+            "restSeconds": 90,
+            "name": "Goblet squat"
+          },
+          {
+            "exerciseId": "17",
+            "repetitions": 8,
+            "sets": 3,
+            "workSeconds": 0,
+            "restSeconds": 90,
+            "name": "Band Pallof press"
+          }
+        ]
+      }
+    ]
+  },
+  "automatedReference": {
+    "label": 0,
+    "reasons": []
+  },
+  "humanReview": null
+}

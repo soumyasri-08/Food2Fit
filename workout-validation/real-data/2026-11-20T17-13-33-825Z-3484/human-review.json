@@ -1,0 +1,170 @@
+[
+  {
+    "id": "none-maintenance",
+    "scenario": {
+      "id": "none-maintenance",
+      "equipment": "none",
+      "goal": "maintenance"
+    },
+    "input": {
+      "equipment": "none",
+      "expectedDays": [
+        1
+      ],
+      "days": [
+        {
+          "day": 1,
+          "exercises": [
+            {
+              "exerciseId": "1",
+              "sets": 3,
+              "repetitions": 12,
+              "workSeconds": 0,
+              "restSeconds": 60,
+              "name": "Wall push-up"
+            },
+            {
+              "exerciseId": "3",
+              "sets": 3,
+              "repetitions": 12,
+              "workSeconds": 0,
+              "restSeconds": 60,
+              "name": "Standing reverse fly without weights"
+            },
+            {
+              "exerciseId": "5",
+              "sets": 3,
+              "repetitions": 12,
+              "workSeconds": 0,
+              "restSeconds": 60,
+              "name": "Bodyweight squat"
+            },
+            {
+              "exerciseId": "7",
+              "sets": 3,
+              "repetitions": 12,
+              "workSeconds": 0,
+              "restSeconds": 60,
+              "name": "Bird dog"
+            }
+          ]
+        }
+      ]
+    },
+    "label": null,
+    "reviewer": null,
+    "evidence": null
+  },
+  {
+    "id": "home-muscle-gain",
+    "scenario": {
+      "id": "home-muscle-gain",
+      "equipment": "home",
+      "goal": "muscle-gain"
+    },
+    "input": {
+      "equipment": "home",
+      "expectedDays": [
+        1
+      ],
+      "days": [
+        {
+          "day": 1,
+          "exercises": [
+            {
+              "exerciseId": "1",
+              "sets": 3,
+              "repetitions": 10,
+              "workSeconds": 0,
+              "restSeconds": 60,
+              "name": "Wall push-up"
+            },
+            {
+              "exerciseId": "13",
+              "sets": 3,
+              "repetitions": 12,
+              "workSeconds": 0,
+              "restSeconds": 60,
+              "name": "Dumbbell row"
+            },
+            {
+              "exerciseId": "15",
+              "sets": 3,
+              "repetitions": 8,
+              "workSeconds": 0,
+              "restSeconds": 60,
+              "name": "Goblet squat"
+            },
+            {
+              "exerciseId": "17",
+              "sets": 3,
+              "repetitions": 12,
+              "workSeconds": 0,
+              "restSeconds": 60,
+              "name": "Band Pallof press"
+            }
+          ]
+        }
+      ]
+    },
+    "label": null,
+    "reviewer": null,
+    "evidence": null
+  },
+  {
+    "id": "gym-fat-loss",
+    "scenario": {
+      "id": "gym-fat-loss",
+      "equipment": "gym",
+      "goal": "fat-loss"
+    },
+    "input": {
+      "equipment": "gym",
+      "expectedDays": [
+        1
+      ],
+      "days": [
+        {
+          "day": 1,
+          "exercises": [
+            {
+              "exerciseId": "11",
+              "repetitions": 10,
+              "sets": 3,
+              "workSeconds": 0,
+              "restSeconds": 90,
+              "name": "Dumbbell floor press"
+            },
+            {
+              "exerciseId": "20",
+              "repetitions": 12,
+              "sets": 3,
+              "workSeconds": 0,
+              "restSeconds": 90,
+              "name": "Lat pulldown"
+            },
+            {
+              "exerciseId": "15",
+              "repetitions": 12,
+              "sets": 3,
+              "workSeconds": 0,
+              "restSeconds": 90,
+              "name": "Goblet squat"
+            },
+            {
+              "exerciseId": "17",
+              "repetitions": 8,
+              "sets": 3,
+              "workSeconds": 0,
+              "restSeconds": 90,
+              "name": "Band Pallof press"
+            }
+          ]
+        }
+      ]
+    },
+    "label": null,
+    "reviewer": null,
+    "evidence": null
+  }
+]

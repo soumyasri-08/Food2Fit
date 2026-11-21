@@ -52,7 +52,7 @@ function distance(nutrition, target) {
   const weights = { calories: 2, protein: 1.5, carbs: 0.7, fat: 0.7, fiber: 0.15 };
   return NUTRIENTS.reduce((score, key) => score + weights[key] * ((nutrition[key] - target[key]) / Math.max(target[key], 1)) ** 2, 0);
 }
-function buildMealPlan(profile, foods) {
+function buildMealPlan(profile, foods, previous) {
   const result = calculateTargets(profile);
   const eligible = eligibleFoods(profile, foods);
   const uses = new Map(), previousDay = new Map();
@@ -63,6 +63,7 @@ function buildMealPlan(profile, foods) {
     const meals = [];
     for (const [index, type] of MEALS.entries()) {
       const target = Object.fromEntries(NUTRIENTS.map(key => [key, result.targets[key] * proportions[index]]));
+      const previousFoods = new Set(previous?.days?.find(d => d.day === day)?.meals?.find(m => m.type === type)?.foods?.map(f => String(f.food)) || []);
       const pool = eligible.filter(food => food.mealTypes.includes(type) && !usedToday.has(String(food._id)) && (uses.get(String(food._id)) || 0) < 4);
       if (!pool.length) throw new AppError(422, 'INSUFFICIENT_FOODS', `Not enough eligible foods for ${type} on day ${day}. Add foods matching your diet/allergies and meal types; limits were not relaxed.`);
       const variants = pool.flatMap(food => {
@@ -70,7 +71,7 @@ function buildMealPlan(profile, foods) {
         const portions = [...new Set([0.5, 1, 1.5, 2].map(multiplier => Math.round(Math.min(600, food.servingGrams * multiplier))).concat(Math.round(Math.min(600, food.servingGrams * 2, Math.max(food.servingGrams * 0.5, ideal)))))];
         return portions.filter(grams => grams >= 1).map(grams => ({ food: food._id, name: food.name, grams,
           nutrition: Object.fromEntries(NUTRIENTS.map(key => [key, round(food[key] * grams / 100)])),
-          penalty: (uses.get(String(food._id)) || 0) * 0.12 + (previousDay.get(String(food._id)) === day - 1 ? 0.12 : 0),
+          penalty: (previousFoods.has(String(food._id)) ? 0.18 : 0) + (uses.get(String(food._id)) || 0) * 0.12 + (previousDay.get(String(food._id)) === day - 1 ? 0.12 : 0),
         }));
       }).sort((a, b) => distance(a.nutrition, target) + a.penalty - distance(b.nutrition, target) - b.penalty).slice(0, 160);
       let beam = [{ foods: [], nutrition: empty(), penalty: 0 }], best;
@@ -92,16 +93,73 @@ function buildMealPlan(profile, foods) {
       }
       meals.push({ type, foods: best.foods.map(({ penalty, ...item }) => item), totals: best.nutrition });
     }
+    balancePortions(meals, eligible, result.targets);
     const totals = sum(meals.map(meal => meal.totals));
     const deviation = Object.fromEntries(NUTRIENTS.map(key => [key, round((totals[key] - result.targets[key]) / result.targets[key] * 100)]));
+    if (Math.round(totals.calories) !== result.targets.calories) warnings.push(`Day ${day}: the calorie target could not be matched within the selected foods' portion limits. Calculated total: ${totals.calories} kcal.`);
     if (Math.abs(deviation.calories) > 15 || Math.abs(deviation.protein) > 25) warnings.push(`Day ${day}: dataset portions differ from the calorie target by ${deviation.calories}% and protein target by ${deviation.protein}%.`);
     if (profile.dietPreference === 'keto' && totals.carbs > result.targets.carbs * 1.15) warnings.push(`Day ${day}: available foods exceed the low-carbohydrate target; this plan does not guarantee ketosis.`);
     days.push({ day, meals, totals, deviation });
   }
-  return { ...result, days, warnings, sources: [...new Set(eligible.map(food => food.source))], algorithmVersion: '1.0',
+  return { ...result, days, warnings, sources: [...new Set(eligible.map(food => food.source))], algorithmVersion: '1.1',
     notes: ['Illustrative estimates, not a medical diet. Check ingredient labels and cross-contact for allergies.', 'Food amounts use the preparation state named in the dataset. Targets and actual totals are shown separately.'] };
 }
-function buildWorkoutPlan(profile, exercises) {
+// Refine the selected menu without changing its foods or dietary restrictions.
+function balancePortions(meals, foods, target) {
+  const lookup = new Map(foods.map(food => [String(food._id), food]));
+  const items = meals.flatMap(meal => meal.foods);
+  const score = totals => 100 * ((totals.calories - target.calories) / target.calories) ** 2 + distance(totals, target);
+  let totals = sum(items.map(item => item.nutrition));
+  for (const step of [20, 5, 1]) {
+    for (let iteration = 0; iteration < 500; iteration++) {
+      let best, bestScore = score(totals);
+      for (const item of items) {
+        const food = lookup.get(String(item.food));
+        const minimum = Math.max(1, Math.round(food.servingGrams * 0.5));
+        const maximum = Math.floor(Math.min(600, food.servingGrams * 2));
+        for (const delta of [-step, step]) {
+          const grams = item.grams + delta;
+          if (grams < minimum || grams > maximum) continue;
+          const nutrition = Object.fromEntries(NUTRIENTS.map(key => [key, round(food[key] * grams / 100)]));
+          const candidate = Object.fromEntries(NUTRIENTS.map(key => [key, round(totals[key] - item.nutrition[key] + nutrition[key])]));
+          const value = score(candidate);
+          if (value < bestScore - 1e-10) { bestScore = value; best = { item, grams, nutrition, totals: candidate }; }
+        }
+      }
+      if (!best) break;
+      best.item.grams = best.grams;
+      best.item.nutrition = best.nutrition;
+      totals = best.totals;
+    }
+  }
+  // Close the remaining calorie gap using hundredths of a gram. Recalculate
+  // every nutrient from the actual quantity; never substitute the target total.
+  for (let iteration = 0; iteration < items.length * 2; iteration++) {
+    const gap = round(target.calories - totals.calories);
+    if (gap === 0) break;
+    let best, error = Math.abs(gap);
+    for (const item of items) {
+      const food = lookup.get(String(item.food));
+      const minimum = Math.max(1, Math.round(food.servingGrams * .5));
+      const maximum = Math.floor(Math.min(600, food.servingGrams * 2));
+      const desired = (item.nutrition.calories + gap) * 100 / food.calories;
+      const grams = Math.min(maximum, Math.max(minimum, Math.round(desired * 100) / 100));
+      const nutrition = Object.fromEntries(NUTRIENTS.map(key => [key, round(food[key] * grams / 100)]));
+      const candidate = Object.fromEntries(NUTRIENTS.map(key => [key, round(totals[key] - item.nutrition[key] + nutrition[key])]));
+      const remaining = Math.abs(round(target.calories - candidate.calories));
+      if (remaining < error || (best && remaining === error && distance(candidate, target) < distance(best.totals, target))) {
+        error = remaining;
+        best = { item, grams, nutrition, totals: candidate };
+      }
+    }
+    if (!best) break;
+    best.item.grams = best.grams;
+    best.item.nutrition = best.nutrition;
+    totals = best.totals;
+  }
+  for (const meal of meals) meal.totals = sum(meal.foods.map(item => item.nutrition));
+}
+function buildWorkoutPlan(profile, exercises, previous) {
   validateProfile(profile);
   const allowed = profile.equipment === 'gym' ? ['none', 'home', 'gym'] : profile.equipment === 'home' ? ['none', 'home'] : ['none'];
   const pool = exercises.filter(item => allowed.includes(item.equipment) && item.difficulty !== 'advanced' && item.goalTags.includes(profile.goal));
@@ -114,9 +172,10 @@ function buildWorkoutPlan(profile, exercises) {
     if (cardio) { title = recovery ? 'Active recovery' : 'Low-impact intervals'; movements = ['cardio', 'core']; }
     else if (profile.workoutDays <= 3) { title = 'Full body'; movements = ['push', 'pull', 'legs', 'core']; }
     else { title = ['Push', 'Pull', 'Legs'][index % 3]; movements = [[ 'push', 'core' ], [ 'pull', 'core' ], [ 'legs', 'core' ]][index % 3]; }
+    const previousExercises = new Set(previous?.days?.find(d => d.day === day)?.exercises?.map(e => String(e.exercise)) || []);
     const selected = [];
     for (const movement of movements) {
-      const candidates = pool.filter(item => item.movement === movement).sort((a, b) => (counts.get(String(a._id)) || 0) - (counts.get(String(b._id)) || 0) || a.name.localeCompare(b.name));
+      const candidates = pool.filter(item => item.movement === movement).sort((a, b) => (counts.get(String(a._id)) || 0) - (counts.get(String(b._id)) || 0) || Number(previousExercises.has(String(a._id))) - Number(previousExercises.has(String(b._id))) || a.name.localeCompare(b.name));
       if (!candidates.length) throw new AppError(422, 'INSUFFICIENT_EXERCISES', `No ${movement} exercises match your equipment and goal. Seed the exercise collection.`);
       const count = !cardio && movements.length === 2 && movement !== 'core' ? 2 : 1;
       for (const exercise of candidates.slice(0, count)) {

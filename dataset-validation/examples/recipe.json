@@ -1,0 +1,22 @@
+{
+  "ingredients": [
+    {
+      "foodId": 4985,
+      "name": "Corn, sweet, yellow, canned, vacuum pack, no salt added",
+      "quantity": "288 g"
+    },
+    {
+      "foodId": 3399,
+      "name": "Cereals ready-to-eat, granola, homemade",
+      "quantity": "115 g"
+    }
+  ],
+  "servings": 2,
+  "nutrition": {
+    "calories": 408.93434560230094,
+    "protein": 10.644726206573791,
+    "carbs": 67.26811065016497,
+    "fat": 12.499256997512552,
+    "fiber": 20.815938774347305
+  }
+}

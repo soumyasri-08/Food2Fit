@@ -4,7 +4,7 @@ A MERN application for multimodal recipe generation and dataset-based nutrition 
 
 ## Implementation status
 
-**Steps 1–7 implemented, with build checks and the Step 8 deployment guide included.** The frontend includes the landing page, authentication, recipe studio, fitness planner, dashboard, favorites/history, profile and 404 page. A labeled sample preview works without credentials. Live Gemini, Atlas and Vercel verification still require your environment settings; visual browser QA remains pending. See [run and deployment instructions](DEPLOYMENT.md).
+**Steps 1–7 implemented, with build checks and the Step 8 deployment guide included.** The frontend includes the landing page, authentication, recipe studio, fitness planner, dashboard, favorites/history, profile and 404 page. A dataset preview works without credentials, using PROTEIN NAP foods for diet plans and the exercise library for workouts. Live Gemini, Atlas and Vercel verification still require your environment settings; visual browser QA remains pending. See [run and deployment instructions](DEPLOYMENT.md).
 
 1. Project setup, environment configuration and Vercel server skeleton.
 2. Models, authentication, validation and persistent rate limiting.
@@ -247,14 +247,14 @@ Step 3 also tests CSV normalization and idempotent imports, nutrition arithmetic
 
 ## Seed data and fitness planning
 
-The supplied **50-food sample CSV is illustrative, not Protein Nap**, as agreed for this stage. There are also 24 exercise records. Configure your MongoDB connection, then run:
+The official **PROTEIN NAP v1.1** dataset is included: 1,914 original food records and a validated 54-food selection for Food2Fit's planner. The selection retains original nutrition values and adds explicitly documented Food2Fit classifications. There are also 24 exercise records. Configure your MongoDB connection, then run:
 
 ```powershell
-npm --prefix server run seed:foods -- --sample
+npm --prefix server run seed:protein-nap
 npm --prefix server run seed:exercises
 ```
 
-See the [CSV contract and import instructions](server/seed/data/README.md) for units, required metadata, cleaning and importing the real dataset later. See the [fitness API and calculation policy](server/FITNESS_API.md) for every new endpoint, examples, formulas, selection constraints and limitations. Plan generation requires a replica set (including Atlas) for atomic saves.
+See [PROTEIN NAP attribution, license and mapping](protein-nap-dataset/PROTEIN-NAP.md) and the [CSV contract](server/seed/data/README.md). The dataset is licensed CC BY-NC-SA 4.0 (noncommercial, attribution, share-alike). The 50-food illustrative sample remains available through `seed:foods -- --sample`; the browser preview now uses PROTEIN NAP for diet planning, with sample recipes and initial weight history kept separate. Run `npm --prefix server run data:preview` after changing the server engine or dataset to refresh the committed browser artifacts. Imports do not clear existing foods; use a fresh database to avoid mixing samples and real data. See the [fitness API and calculation policy](server/FITNESS_API.md) for endpoints, formulas, constraints and limitations. Plan generation requires a replica set (including Atlas) for atomic saves.
 
 The engine has no AI dependency. It saves seven meal days plus a weekly workout schedule, shows actual nutrition alongside targets, and reports shortfalls rather than hiding them. The latest complete plan pair replaces the previous one. Editing a profile marks its old plan stale until regenerated.
 
@@ -281,7 +281,7 @@ References: [Vercel Express documentation](https://vercel.com/docs/frameworks/ba
 
 ## Dataset and screenshots
 
-The Protein Nap CSV and its actual column definitions were not supplied. Step 3 includes explicitly labeled sample data. Adapt and import the real dataset using the documented CSV contract when it becomes available.
+The official PROTEIN NAP archive, original food JSON, source metadata and reproducible normalized CSV are included under `protein-nap-dataset`. Run `npm --prefix server run data:protein-nap` to rebuild and validate the 54-food selection without MongoDB. Foods without explicit supported classifications are retained in the original dataset but not selected for the planner.
 
 - Landing screenshot: pending Step 5.
 - Recipe generator screenshot: pending Step 6.

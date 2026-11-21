@@ -1,8 +1,10 @@
+const languages = require('../services/recipeLanguages.json');
 const { body, param, query } = require('express-validator');
 const { jsonBody, allowFields, validate } = require('./validate');
 const { noQuery, noBody } = require('./fitnessValidation');
 const safeText = (field, max) => body(field).isString().bail().trim().isLength({ min: 1, max }).matches(/^[^<>\x00-\x1f]+$/u);
-const generateRules = () => [noQuery, jsonBody, allowFields(['ingredients', 'cuisine', 'dietType', 'allergies', 'calorieTarget', 'cookingTime', 'servings', 'regenerate']),
+const generateRules = () => [noQuery, jsonBody, allowFields(['ingredients', 'cuisine', 'dietType', 'allergies', 'calorieTarget', 'cookingTime', 'servings', 'language', 'regenerate']),
+  body('language').optional().isString().bail().isIn(Object.keys(languages)),
   body('ingredients').isArray({ min: 1, max: 40 }), safeText('ingredients.*', 100),
   safeText('cuisine', 80), body('dietType').isString().bail().isIn(['veg', 'non-veg', 'vegan', 'keto']),
   body('allergies').isArray({ max: 30 }), safeText('allergies.*', 80),

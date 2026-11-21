@@ -1,0 +1,6126 @@
+[
+  {
+    "id": 259284,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 182139,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 72371,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 703,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37299,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208253,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37187,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 646,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 180442,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37405,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 237602,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 5821,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 37082,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 651,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208985,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1041,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 652,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47908,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 63888,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 436004,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 436001,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47909,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47910,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 427305,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 201642,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 706,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208255,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 764,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208361,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 542,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 762,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208359,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 710,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37298,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47915,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47917,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47918,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47919,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81569,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 20278,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81614,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47924,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47925,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47927,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47929,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47930,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47931,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47934,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47936,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 350083,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 532,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208152,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 534,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 60893,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208731,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208732,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47944,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47945,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47949,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22384,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21643,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47950,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 350,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208581,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 73990,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47953,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47954,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 767,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47958,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47959,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 777,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208533,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1222,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428348,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428355,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208586,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 356,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 254,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 38466,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 207929,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47970,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47972,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47976,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47981,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47988,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47990,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47991,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 178182,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47994,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 713,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208266,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47995,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 153549,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47997,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 47998,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48001,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48007,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 60692,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48009,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48010,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48011,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48014,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209081,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 638,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209082,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 10240,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 645,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209084,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 202891,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48015,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 182055,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48020,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48024,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48025,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48027,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48028,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48029,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48030,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48034,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48036,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48032,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48038,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48039,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48054,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48055,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48057,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48060,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 74340,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 125812,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 59756,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209076,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 237621,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 80327,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428359,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349599,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28569,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28690,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 265890,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48072,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48076,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235935,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48085,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48088,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48089,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81184,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48112,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23116,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48116,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48126,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48142,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48143,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48145,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23110,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48152,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48164,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48170,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48171,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48172,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81832,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 163529,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 40962,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 657,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208994,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 36958,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 174,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 207939,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27645,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27636,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48223,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48228,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48233,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 176472,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 237698,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21824,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27096,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48249,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48251,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48252,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48253,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48257,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48262,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 608,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208174,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28764,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28676,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48264,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48265,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48274,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48277,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48279,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48280,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48281,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48282,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48286,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48287,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48288,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48289,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48290,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48293,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48294,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27386,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48295,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48308,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48302,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48298,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27080,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48304,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48306,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23135,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48309,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48310,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48313,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48314,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48335,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48315,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48316,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48317,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48319,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48322,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48323,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48327,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48328,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48333,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48334,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48337,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48340,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81521,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428089,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21607,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28294,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28876,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22388,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81883,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48346,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48347,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48348,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48349,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48351,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81823,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22775,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81224,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48353,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48355,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 54925,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1062,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 660,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208995,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 659,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 215187,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48363,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48368,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48369,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48375,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82203,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48378,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48379,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48380,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48381,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428067,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48384,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48385,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48388,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48389,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48390,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48391,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48393,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37341,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 823,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 54406,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 201646,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82249,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 207917,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 207912,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37322,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28076,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48398,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48411,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48420,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208598,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 952,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 172894,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 181828,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428064,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 161353,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 62752,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 201649,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 201648,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208784,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 187,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48432,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22391,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27408,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48433,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48435,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28872,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48436,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48438,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48440,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48441,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48448,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48449,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48450,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 772,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48456,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48464,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48467,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22399,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37264,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 662,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 661,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37255,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22405,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48474,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209002,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 665,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209003,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 664,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209004,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 74368,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28086,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48475,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48476,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 850,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48478,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48489,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48490,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48491,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48495,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48496,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48497,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48498,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48507,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48509,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48511,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48514,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48515,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48516,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48517,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48522,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48525,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48499,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48500,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48508,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48512,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28180,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48520,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48528,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48530,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 202902,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48540,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48541,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235568,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22503,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28579,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28540,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48553,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82483,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48558,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48564,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48569,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48571,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48572,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27791,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48588,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48599,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 121136,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21757,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48631,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48633,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48634,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48635,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48637,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 177563,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48641,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 60386,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 825,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48648,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48650,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48662,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48669,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 237700,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 479,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48675,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48676,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27376,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 61953,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21862,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48681,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22261,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21713,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48684,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82286,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48687,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48689,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48691,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48693,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 667,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21654,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22284,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48704,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48706,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48712,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48713,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 669,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 89625,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48721,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48740,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81467,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21496,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81268,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48746,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22482,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27030,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 182163,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23134,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183816,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 177269,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22403,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81896,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22402,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48753,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48757,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48758,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27448,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23290,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82156,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48760,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48761,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209027,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 678,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209015,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 677,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27317,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27553,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48767,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48769,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48771,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48780,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48784,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 38253,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48787,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82076,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27318,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48788,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48789,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23150,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81254,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48793,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48799,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 6271,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 428397,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 951,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48800,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 178200,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48801,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48802,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 3803,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 48810,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48834,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48839,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48842,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48873,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21984,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48900,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48913,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48915,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 341852,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428072,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82543,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22916,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82546,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22945,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 237213,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22942,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48926,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48927,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48928,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 180341,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183107,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48933,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48934,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48935,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48936,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 154518,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 816,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 381,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208626,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 426514,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48944,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48945,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48947,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48950,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23294,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48951,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48954,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81129,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21722,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22526,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21637,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22385,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48980,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48981,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48983,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48984,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48986,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48987,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48988,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48989,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48990,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48992,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81533,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48999,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 350070,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235031,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 550,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208184,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 688,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22273,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 54985,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349609,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82229,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 6408,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 80248,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208187,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1084,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49004,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49005,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49008,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49009,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49010,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49011,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 501,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209035,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49015,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235001,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 957,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 956,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22056,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81530,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 426510,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 259277,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 264,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 207992,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27522,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49019,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49023,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22088,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49027,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 6270,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 49032,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49034,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27273,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49038,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81645,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81660,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 586,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208199,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 126085,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 587,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208201,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 593,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 591,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208204,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 592,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 259237,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49065,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49067,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349508,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209245,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349503,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 726,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208295,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 38064,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 287,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 299,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209249,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22439,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22412,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27134,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183997,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22569,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81786,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81787,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82161,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 177567,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349557,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49076,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49077,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49078,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82660,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 45383,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 172919,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49086,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49089,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28252,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28259,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49093,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28262,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28261,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28220,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 73538,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 61855,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81889,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21979,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 237737,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49101,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 207864,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 207865,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49107,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49112,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21985,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22547,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22713,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49121,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22078,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 236799,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22086,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81536,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 236816,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 426431,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 4016,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 49131,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49134,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49135,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49137,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49138,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49140,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22756,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209040,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 234800,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 60999,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 517,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208397,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208398,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49151,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428367,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49165,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49170,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49188,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49191,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22063,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 180466,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49198,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22007,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49205,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49208,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49215,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 341869,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22919,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49216,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49218,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49219,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21780,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49222,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49226,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 186572,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 176338,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 130188,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49229,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49230,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49235,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49236,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235072,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49242,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 60,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 62,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208440,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208438,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 55,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 58,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208446,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1410,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208444,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 60693,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49248,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49250,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27730,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82536,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49252,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22928,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49255,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49256,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49257,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 728,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208335,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49281,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22136,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27501,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428069,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49313,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27855,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49329,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49337,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49342,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49349,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49359,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 729,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208301,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22643,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49409,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49411,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 182136,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183022,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22421,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49415,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49417,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49418,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37514,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209089,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 10,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208475,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 38249,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49422,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81104,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49427,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235436,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 436023,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49432,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49444,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49447,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 5132,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 4593,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 49448,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23038,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49451,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81105,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 730,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37288,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 265,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27944,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 237542,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428077,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 145,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208036,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49485,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428070,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49489,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49490,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 201645,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49496,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209114,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428681,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 738,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37305,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208314,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 20181,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21650,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49502,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49503,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 10199,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 72664,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 794,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 132990,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28361,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 2326,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 49505,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21735,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22936,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21736,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 435997,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 10241,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 553,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49516,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49517,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 731,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 732,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49521,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 211395,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49522,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 822,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1469,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49525,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49528,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49536,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49537,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 741,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209048,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 18669,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81934,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49545,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49546,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49561,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49563,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49569,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49572,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49573,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49575,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49577,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81343,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 236947,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23209,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49584,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49587,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49588,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49589,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 943,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209132,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 743,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37331,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208320,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 162892,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49599,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49600,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183532,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49601,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82571,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27967,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49605,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49608,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49606,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22049,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22392,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28277,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49624,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49625,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49628,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49629,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49630,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49631,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49633,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49641,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49642,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 150150,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 89373,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 426432,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 175849,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 215209,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208322,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235442,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49643,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49644,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 341855,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49646,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49649,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49650,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349498,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1559,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 774,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49655,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81436,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49666,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21988,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21151,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 5245,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 49667,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 41244,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209096,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 895,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82578,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21533,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21494,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81748,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81338,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 236464,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49671,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49678,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49681,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49683,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49691,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22235,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27543,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81585,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49694,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208859,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28237,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49699,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49696,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49698,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22417,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22416,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235231,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49703,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49711,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49712,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49714,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49715,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22476,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 436022,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49718,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49719,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81429,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49720,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49721,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 38218,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 482,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208564,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208565,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 484,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 478,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208570,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 481,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428351,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49732,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37999,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49744,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49749,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49751,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 746,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49756,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49759,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81437,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82467,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22064,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49762,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21645,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21991,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49763,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28329,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49781,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 8061,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 49783,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21596,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49786,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49788,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49789,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49790,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21555,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21553,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49791,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49792,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21552,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49803,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49818,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49819,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208870,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49826,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49827,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28398,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49829,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22231,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81647,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49831,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27517,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49835,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49842,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49837,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49845,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49846,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49848,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49850,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49852,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49853,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49859,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49861,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49863,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49864,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 60560,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208079,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 300,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208882,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 415,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349566,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209055,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21913,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49866,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49867,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49868,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49869,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49870,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49876,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49878,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 747,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208011,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 426,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 423,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208680,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49883,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49884,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 427321,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 259222,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49902,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49894,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49901,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49904,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49905,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49921,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37520,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 959,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 696,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22204,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49934,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49935,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49940,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 110080,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37078,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81653,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49942,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49943,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81232,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49945,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49947,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49949,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22702,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49954,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49969,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49970,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49966,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49967,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49976,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49980,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49987,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49988,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 259280,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 177268,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49993,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50015,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50034,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50045,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50048,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50049,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50059,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50074,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50083,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50089,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50092,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50093,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50095,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50112,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50115,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50122,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28271,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50132,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23044,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28285,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50136,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50137,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50140,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50144,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50145,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50146,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50148,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50149,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50151,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50152,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50154,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28295,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82481,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21781,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50158,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50159,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50163,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 178034,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183998,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 178204,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 341922,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 178206,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 37050,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 236818,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50177,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27664,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50182,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50183,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50184,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50187,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 80277,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428473,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349507,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209233,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50193,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50194,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428053,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 10244,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208222,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208223,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 38340,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 182504,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 565,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208229,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208232,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 752,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208332,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 32,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 35,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 36,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 40,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208518,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208522,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1423,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1425,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 57146,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 18726,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22680,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50201,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50202,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50203,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50204,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 153860,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81345,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 147049,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21562,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50206,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81344,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50208,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22427,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50214,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50216,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50221,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50223,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21865,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50224,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81846,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235091,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 45,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208531,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50240,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50243,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50249,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50263,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50250,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50252,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50254,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50255,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50269,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50265,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50268,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50272,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50276,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27039,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 349505,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50279,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50280,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82171,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 432,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50300,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81238,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 211399,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235080,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 231928,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235102,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50306,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81137,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50309,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23136,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50313,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 960,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1479,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50317,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50319,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28303,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28888,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28870,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50321,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50326,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50328,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208916,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428065,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50329,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28348,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50333,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50334,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50338,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50339,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27600,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50342,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50343,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22818,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50346,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 436,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208694,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 699,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 274,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82212,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22692,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50358,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50359,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50360,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50361,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 132986,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428066,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50381,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50384,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50385,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50388,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50390,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28534,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50394,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50395,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50401,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50405,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50406,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50407,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50409,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428378,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50433,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 36860,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208416,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 60074,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50437,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50440,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50445,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50446,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50454,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50458,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28224,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50463,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 7920,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 7922,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 237783,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21898,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22045,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81520,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208424,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 74027,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 907,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 908,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208931,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 913,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 914,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208935,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 920,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208953,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 922,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50465,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50475,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28513,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50477,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50478,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50481,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50482,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28529,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22767,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28533,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50484,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50485,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50486,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28479,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50489,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50490,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50491,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28524,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28523,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28488,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28507,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28514,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50494,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 259243,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50495,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22012,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28190,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 172889,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50498,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82093,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 173743,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50499,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50500,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22409,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50502,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21818,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50503,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50504,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81460,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50509,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21811,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50511,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50512,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81929,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50516,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50518,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 83515,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50530,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50531,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50532,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50533,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50537,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21744,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50545,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 237183,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 900,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209101,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22238,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50550,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50552,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50555,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81899,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22424,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50561,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50562,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50563,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50567,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50568,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50572,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50571,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50581,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50582,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 341828,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 426871,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235600,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50584,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27487,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 961,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 53415,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50614,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50615,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50617,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 6433,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 65069,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50620,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50622,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 205483,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50625,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23132,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50628,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50629,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22517,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50630,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50631,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428057,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209067,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1119,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 700,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 172720,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50632,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50633,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22443,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235146,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81930,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235195,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50634,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22015,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22483,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235138,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235186,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21696,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50636,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50637,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27595,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50639,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50640,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50641,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 428385,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 426875,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 201647,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 259262,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50654,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208252,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 208429,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50667,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50668,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50672,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50673,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50674,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22821,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 176465,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50680,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50681,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50682,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50688,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50690,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50691,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50698,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81462,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 176474,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 759,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 761,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 760,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 45139,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23123,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81195,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81685,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81682,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28300,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50720,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50721,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21756,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22670,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81935,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28863,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50722,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50723,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50724,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50725,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28299,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 427315,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 427319,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50728,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 209138,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21813,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50731,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 1850,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 81464,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 859,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 862,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 866,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50733,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50734,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50735,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81128,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50737,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22264,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22271,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50738,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 150613,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235619,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81269,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 235705,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 8045,
+    "reason": "Missing, duplicate or out-of-range nutrient"
+  },
+  {
+    "id": 22471,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 211413,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 173501,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50772,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 186532,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50782,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81795,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28198,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 236638,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27271,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 182259,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50785,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50786,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21609,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81780,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50787,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50789,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50790,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21624,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50791,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50792,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50793,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50796,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50797,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50798,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50800,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 152437,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 152464,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183086,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 182585,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 40245,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 152440,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 152467,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 88723,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 89602,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 41937,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 145970,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183096,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 179892,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 180149,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 80244,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 145738,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 183307,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 46345,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 869,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27206,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27242,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22786,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27405,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27594,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21655,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22001,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27665,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48091,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48105,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48318,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 82458,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27903,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48392,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27863,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27656,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48565,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48573,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48655,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48656,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27234,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27166,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 48809,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81821,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 26997,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22461,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27283,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49061,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27181,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27205,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 26720,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 26719,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49069,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 23292,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49100,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27394,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49113,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27288,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27528,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27246,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49358,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27484,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49453,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 28365,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27673,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49515,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49576,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81426,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21998,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27180,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81413,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49685,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 49692,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27420,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27674,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27300,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27884,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27295,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27035,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27955,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27529,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50018,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27453,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 26883,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27126,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27438,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50270,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27179,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27297,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81450,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50311,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27165,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27684,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50350,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50404,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21823,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27614,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50521,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27379,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22925,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50548,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 26738,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 81661,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50599,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 22430,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 27455,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 21995,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 26791,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  },
+  {
+    "id": 50784,
+    "reason": "Other source: nutrient basis not audited for this prototype"
+  }
+]

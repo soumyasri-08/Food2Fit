@@ -1,12 +1,18 @@
 # Food and exercise data
 
+The official **PROTEIN NAP v1.1** dataset is now included: 1,914 original food records
+and a validated 54-food selection for the planner. See [source, attribution,
+license and mapping](../../../protein-nap-dataset/PROTEIN-NAP.md). Import it with
+`npm --prefix server run seed:protein-nap` after configuring MongoDB.
+
 `sample-foods.csv` contains **50 illustrative foods**, using approximate nutrition values for development. It is authored sample data, **not the Protein Nap dataset**, not an authoritative food-composition database, and not verified for clinical use. The deliberately broad meal classifications exercise the planner; generated combinations are food portions rather than finished recipes. The displayed food name states the preparation basis where relevant.
 
 `exercises.json` contains 24 beginner exercise records. `none` needs no exercise equipment; `home` assumes dumbbells or resistance bands; `gym` adds machines/cables. The engine also includes lower-equipment options when home/gym is selected. Goal tags determine eligibility; the engine adds sets, repetitions, rest and scheduling.
 
 ## CSV contract
 
-The actual Protein Nap file/schema has not been supplied. Adapt its columns into this format before import. Do not invent missing diet/allergen metadata.
+The included PROTEIN NAP adapter produces this format. Custom datasets must also
+follow this contract; do not invent missing diet/allergen metadata.
 
 | Column | Required | Format |
 | --- | --- | --- |

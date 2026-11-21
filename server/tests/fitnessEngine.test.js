@@ -9,6 +9,23 @@ const foods = parseFoods(csv, 'TEST SAMPLE').foods.map((food, index) => ({ ...fo
 const exercises = require('../seed/data/exercises.json').map((exercise, index) => ({ ...exercise, _id: String(index + 1) }));
 const profile = { age: 30, gender: 'male', height: 175, weight: 75, activityLevel: 'moderate', goal: 'maintenance', dietPreference: 'vegan', allergies: [], workoutDays: 3, equipment: 'none' };
 
+test('1452 kcal vegan plan matches the target with real portions', () => {
+  const reference = require('../seed/proteinNap').prepareProteinNap().foods.map((food, i) => ({ ...food, _id: String(i + 1) }));
+  const plan = buildMealPlan({ ...profile, age: 25, gender: 'female', height: 155, weight: 56, activityLevel: 'light', goal: 'fat-loss' }, reference);
+  assert.equal(plan.targets.calories, 1452);
+  for (const day of plan.days) {
+    assert.equal(day.totals.calories, 1452);
+    let calories = 0;
+    for (const item of day.meals.flatMap(meal => meal.foods)) {
+      const source = reference.find(food => food._id === item.food);
+      assert(item.grams >= Math.round(source.servingGrams * .5));
+      assert(item.grams <= Math.min(600, source.servingGrams * 2));
+      calories += source.calories * item.grams / 100;
+    }
+    assert(Math.abs(calories - day.totals.calories) < 1);
+  }
+});
+
 test('CSV conversion handles units, explicit nutrition basis, duplicates and invalid rows', () => {
   assert.equal(quantity('1 kg', 'mass'), 1000);
   assert.equal(quantity('500 mg', 'mass'), 0.5);

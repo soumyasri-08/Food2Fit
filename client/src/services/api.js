@@ -9,4 +9,5 @@ export const recipeApi = {
   save: recipeId => api.post('/recipes/save', { recipeId }), list: (type, page = 1) => api.get(`/recipes/${type}`, { params: { page, limit: 12 } }),
   remove: (type, id) => api.delete(`/recipes/${type === 'favorites' ? 'favorites/' : ''}${id}`),
 };
-export const fitnessApi = { profile: () => api.get('/fitness/profile'), saveProfile: (profile, exists) => api[exists ? 'put' : 'post']('/fitness/profile', profile), deleteProfile: () => api.delete('/fitness/profile'), generate: () => api.post('/fitness/generate-plan'), plan: () => api.get('/fitness/plan'), progress: () => api.get('/fitness/progress'), log: entry => api.post('/fitness/log-progress', entry) };
+export const fitnessApi = { profile: () => api.get('/fitness/profile'), saveProfile: (profile, exists) => api[exists ? 'put' : 'post']('/fitness/profile', profile), deleteProfile: () => api.delete('/fitness/profile'), generate: () => api.post('/fitness/generate-ai-plan'), generateWorkout: () => api.post('/fitness/generate-workout'), plan: () => api.get('/fitness/plan'), progress: () => api.get('/fitness/progress'), log: entry => api.post('/fitness/log-progress', entry) };
+export const googleAuth = credential => api.post('/auth/google', { credential });

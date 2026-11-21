@@ -1,0 +1,866 @@
+[
+  {
+    "name": "Wall push-up",
+    "muscleGroup": "chest",
+    "equipment": "none",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Knee push-up",
+    "muscleGroup": "chest",
+    "equipment": "none",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Standing reverse fly without weights",
+    "muscleGroup": "upper back",
+    "equipment": "none",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Prone W raise",
+    "muscleGroup": "upper back",
+    "equipment": "none",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Bodyweight squat",
+    "muscleGroup": "legs",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Glute bridge",
+    "muscleGroup": "glutes",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Bird dog",
+    "muscleGroup": "core",
+    "equipment": "none",
+    "movement": "core",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dead bug",
+    "muscleGroup": "core",
+    "equipment": "none",
+    "movement": "core",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Marching in place",
+    "muscleGroup": "cardio",
+    "equipment": "none",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Easy walking",
+    "muscleGroup": "cardio",
+    "equipment": "none",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell floor press",
+    "muscleGroup": "chest",
+    "equipment": "home",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Band chest press",
+    "muscleGroup": "chest",
+    "equipment": "home",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell row",
+    "muscleGroup": "back",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Band row",
+    "muscleGroup": "back",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Goblet squat",
+    "muscleGroup": "legs",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell Romanian deadlift",
+    "muscleGroup": "legs",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Band Pallof press",
+    "muscleGroup": "core",
+    "equipment": "home",
+    "movement": "core",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Machine chest press",
+    "muscleGroup": "chest",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Cable chest press",
+    "muscleGroup": "chest",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Lat pulldown",
+    "muscleGroup": "back",
+    "equipment": "gym",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Seated cable row",
+    "muscleGroup": "back",
+    "equipment": "gym",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Leg press",
+    "muscleGroup": "legs",
+    "equipment": "gym",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Seated leg curl",
+    "muscleGroup": "legs",
+    "equipment": "gym",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Stationary cycling",
+    "muscleGroup": "cardio",
+    "equipment": "gym",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Standard push-up",
+    "muscleGroup": "chest",
+    "equipment": "none",
+    "movement": "push",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Close-grip knee push-up",
+    "muscleGroup": "triceps",
+    "equipment": "none",
+    "movement": "push",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Scapular push-up",
+    "muscleGroup": "shoulders",
+    "equipment": "none",
+    "movement": "push",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Prone Y raise",
+    "muscleGroup": "upper back",
+    "equipment": "none",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Prone T raise",
+    "muscleGroup": "upper back",
+    "equipment": "none",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Reverse snow angel",
+    "muscleGroup": "upper back",
+    "equipment": "none",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Reverse lunge",
+    "muscleGroup": "legs",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Forward lunge",
+    "muscleGroup": "legs",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Lateral lunge",
+    "muscleGroup": "legs",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Standing calf raise",
+    "muscleGroup": "calves",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Side-lying hip abduction",
+    "muscleGroup": "glutes",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Single-leg glute bridge",
+    "muscleGroup": "glutes",
+    "equipment": "none",
+    "movement": "legs",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Supine heel tap",
+    "muscleGroup": "core",
+    "equipment": "none",
+    "movement": "core",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Reverse crunch",
+    "muscleGroup": "core",
+    "equipment": "none",
+    "movement": "core",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Step jack",
+    "muscleGroup": "cardio",
+    "equipment": "none",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Side-to-side step touch",
+    "muscleGroup": "cardio",
+    "equipment": "none",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Standing dumbbell shoulder press",
+    "muscleGroup": "shoulders",
+    "equipment": "home",
+    "movement": "push",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell triceps kickback",
+    "muscleGroup": "triceps",
+    "equipment": "home",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell overhead triceps extension",
+    "muscleGroup": "triceps",
+    "equipment": "home",
+    "movement": "push",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Resistance-band overhead press",
+    "muscleGroup": "shoulders",
+    "equipment": "home",
+    "movement": "push",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell bent-over reverse fly",
+    "muscleGroup": "upper back",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell biceps curl",
+    "muscleGroup": "biceps",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell hammer curl",
+    "muscleGroup": "biceps",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Resistance-band pull-apart",
+    "muscleGroup": "upper back",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Resistance-band biceps curl",
+    "muscleGroup": "biceps",
+    "equipment": "home",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell reverse lunge",
+    "muscleGroup": "legs",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell split squat",
+    "muscleGroup": "legs",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell calf raise",
+    "muscleGroup": "calves",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Mini-band lateral walk",
+    "muscleGroup": "glutes",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Banded glute bridge",
+    "muscleGroup": "glutes",
+    "equipment": "home",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Standing band trunk rotation",
+    "muscleGroup": "core",
+    "equipment": "home",
+    "movement": "core",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Jump rope",
+    "muscleGroup": "cardio",
+    "equipment": "home",
+    "movement": "cardio",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Incline machine chest press",
+    "muscleGroup": "chest",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Machine shoulder press",
+    "muscleGroup": "shoulders",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Cable triceps pushdown",
+    "muscleGroup": "triceps",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Dumbbell bench press",
+    "muscleGroup": "chest",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Incline dumbbell bench press",
+    "muscleGroup": "chest",
+    "equipment": "gym",
+    "movement": "push",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Chest-supported dumbbell row",
+    "muscleGroup": "back",
+    "equipment": "gym",
+    "movement": "pull",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Machine seated row",
+    "muscleGroup": "back",
+    "equipment": "gym",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Cable face pull",
+    "muscleGroup": "upper back",
+    "equipment": "gym",
+    "movement": "pull",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Cable biceps curl",
+    "muscleGroup": "biceps",
+    "equipment": "gym",
+    "movement": "pull",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Machine leg extension",
+    "muscleGroup": "quadriceps",
+    "equipment": "gym",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Lying leg curl",
+    "muscleGroup": "hamstrings",
+    "equipment": "gym",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Machine hip abduction",
+    "muscleGroup": "glutes",
+    "equipment": "gym",
+    "movement": "legs",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Cable Pallof press",
+    "muscleGroup": "core",
+    "equipment": "gym",
+    "movement": "core",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Cable wood chop",
+    "muscleGroup": "core",
+    "equipment": "gym",
+    "movement": "core",
+    "difficulty": "intermediate",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Treadmill walking",
+    "muscleGroup": "cardio",
+    "equipment": "gym",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  },
+  {
+    "name": "Elliptical trainer",
+    "muscleGroup": "cardio",
+    "equipment": "gym",
+    "movement": "cardio",
+    "difficulty": "beginner",
+    "goalTags": [
+      "fat-loss",
+      "muscle-gain",
+      "maintenance"
+    ]
+  }
+]

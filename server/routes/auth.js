@@ -14,5 +14,6 @@ router.post('/register', authLimiter, jsonBody, allowFields(['name', 'email', 'p
   emailRule(), passwordRule(), validate, asyncHandler(controller.register));
 router.post('/login', authLimiter, jsonBody, allowFields(['email', 'password']),
   emailRule(), passwordRule(), validate, asyncHandler(controller.login));
+router.post('/google', authLimiter, jsonBody, allowFields(['credential']), asyncHandler(controller.googleAuth));
 router.get('/me', auth, asyncHandler(controller.me));
 module.exports = router;

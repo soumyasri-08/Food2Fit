@@ -1,0 +1,53 @@
+{
+  "id": "none-maintenance",
+  "input": {
+    "equipment": "none",
+    "expectedDays": [
+      1
+    ],
+    "days": [
+      {
+        "day": 1,
+        "exercises": [
+          {
+            "exerciseId": "1",
+            "sets": 3,
+            "repetitions": 12,
+            "workSeconds": 0,
+            "restSeconds": 60,
+            "name": "Wall push-up"
+          },
+          {
+            "exerciseId": "3",
+            "sets": 3,
+            "repetitions": 12,
+            "workSeconds": 0,
+            "restSeconds": 60,
+            "name": "Standing reverse fly without weights"
+          },
+          {
+            "exerciseId": "5",
+            "sets": 3,
+            "repetitions": 12,
+            "workSeconds": 0,
+            "restSeconds": 60,
+            "name": "Bodyweight squat"
+          },
+          {
+            "exerciseId": "7",
+            "sets": 3,
+            "repetitions": 12,
+            "workSeconds": 0,
+            "restSeconds": 60,
+            "name": "Bird dog"
+          }
+        ]
+      }
+    ]
+  },
+  "automatedReference": {
+    "label": 0,
+    "reasons": []
+  },
+  "humanReview": null
+}

@@ -1,0 +1,33 @@
+{
+  "datasetOrigin": "actual-provider-responses",
+  "labelSource": "independent automated rule implementation",
+  "attempted": 1,
+  "responsesReceived": 0,
+  "generationFailures": 1,
+  "planned": 3,
+  "metrics": {
+    "total": 0,
+    "classified": 0,
+    "abstentions": 0,
+    "accuracy": null,
+    "precision": null,
+    "recall": null,
+    "f1": null,
+    "specificity": null,
+    "coverage": null,
+    "confusion": {
+      "tp": 0,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "humanReviewedCases": 0,
+  "limitations": [
+    "Small constrained pilot; representative real-world performance cannot be estimated.",
+    "Reviewer code is independent of model predictions but uses the same project policy and exercise catalog.",
+    "Independent human/expert labels are pending.",
+    "Provider or schema failures are counted separately and excluded from classifier metrics.",
+    "Undefined precision/recall are null when the required class or predictions are absent."
+  ]
+}

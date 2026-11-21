@@ -1,4 +1,5 @@
-import sample from './samplePlan.json';
+import { defaultProfile, generatePreviewPlan, datasetVersion } from './fitnessPreview/index.js';
+export { generatePreviewPlan } from './fitnessPreview/index.js';
 const bowlImage = 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=85';
 export const foodImages = [bowlImage, 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=85', 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=700&q=85', 'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=700&q=85'];
 export const sampleRecipes = [
@@ -8,6 +9,19 @@ export const sampleRecipes = [
 ];
 const dateAgo = days => { const date = new Date(); date.setDate(date.getDate() - days); return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`; };
 export const today = () => dateAgo(0);
-function defaults() { return { ...structuredClone(sample), favorites: [structuredClone(sampleRecipes[0])], history: structuredClone(sampleRecipes), progress: [77.3,77.1,76.8,77,76.6,76.4,76].map((weight,i) => ({ date: dateAgo((6-i)*7), weight })), water: 0 }; }
-export function readDemo() { try { return JSON.parse(localStorage.getItem('food2fit-demo-v1')) || defaults(); } catch { return defaults(); } }
+function defaults() { return { ...generatePreviewPlan(defaultProfile), favorites: [structuredClone(sampleRecipes[0])], history: structuredClone(sampleRecipes), progress: [77.3,77.1,76.8,77,76.6,76.4,76].map((weight,i) => ({ date: dateAgo((6-i)*7), weight })), water: 0 }; }
+export function readDemo() {
+  let saved;
+  try { saved = JSON.parse(localStorage.getItem('food2fit-demo-v1')); } catch { /* Start with defaults if storage is unavailable or corrupt. */ }
+  if (!saved || typeof saved !== 'object' || !Array.isArray(saved.progress)) return defaults();
+  if (saved.datasetVersion === datasetVersion) return saved;
+  let replacement = { mealPlan: null, workoutPlan: null, datasetVersion, stale: false, planError: '' };
+  if (saved.profile) {
+    try { replacement = generatePreviewPlan(saved.profile); }
+    catch (error) { replacement.planError = error.message; }
+  }
+  const migrated = { ...saved, ...replacement };
+  try { localStorage.setItem('food2fit-demo-v1', JSON.stringify(migrated)); } catch { /* Preview can still be read without storage. */ }
+  return migrated;
+}
 export function updateDemo(change) { const next = change(readDemo()); localStorage.setItem('food2fit-demo-v1', JSON.stringify(next)); return next; }

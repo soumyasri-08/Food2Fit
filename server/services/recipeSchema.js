@@ -25,6 +25,6 @@ function parseOutput(text, schema) {
     const value = JSON.parse(json);
     if (!matches(value, schema)) throw new Error('Invalid schema');
     return value;
-  } catch { throw new AppError(502, 'AI_INVALID_RESPONSE', 'The AI returned an incomplete recipe response. Please try again.'); }
+  } catch { throw new AppError(502, 'AI_INVALID_RESPONSE', 'The AI returned an incomplete response. Please try again.'); }
 }
 module.exports = { recipeSchema, detectionSchema, matches, parseOutput };

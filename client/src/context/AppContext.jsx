@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
-import { api } from '../services/api';
+import { api, googleAuth } from '../services/api';
 const Context = createContext(null);
 export function AppProvider({ children }) {
   const [user, setUser] = useState(null), [loading, setLoading] = useState(Boolean(sessionStorage.getItem('food2fit-token')));
@@ -14,7 +14,8 @@ export function AppProvider({ children }) {
   const enterDemo = () => { sessionStorage.setItem('food2fit-preview', 'true'); setDemo(true); };
   const exitDemo = () => { sessionStorage.removeItem('food2fit-preview'); setDemo(false); };
   const authenticate = async (mode, input) => { const { data } = await api.post(`/auth/${mode}`, input); sessionStorage.setItem('food2fit-token', data.token); setUser(data.user); exitDemo(); };
+  const googleLogin = async (credential) => { const { data } = await googleAuth(credential); sessionStorage.setItem('food2fit-token', data.token); setUser(data.user); exitDemo(); };
   const logout = () => { sessionStorage.removeItem('food2fit-token'); setUser(null); exitDemo(); };
-  return <Context.Provider value={{ user, loading, demo, dark, setDark, notify, enterDemo, exitDemo, authenticate, logout }}>{children}<div className="toast-stack" aria-live="polite">{toasts.map(item => <div key={item.id} className={`toast ${item.type}`} role={item.type === 'error' ? 'alert' : 'status'}>{item.message}<button aria-label="Dismiss notification" onClick={() => setToasts(items => items.filter(t => t.id !== item.id))}>×</button></div>)}</div></Context.Provider>;
+  return <Context.Provider value={{ user, loading, demo, dark, setDark, notify, enterDemo, exitDemo, authenticate, googleLogin, logout }}>{children}<div className="toast-stack" aria-live="polite">{toasts.map(item => <div key={item.id} className={`toast ${item.type}`} role={item.type === 'error' ? 'alert' : 'status'}>{item.message}<button aria-label="Dismiss notification" onClick={() => setToasts(items => items.filter(t => t.id !== item.id))}>×</button></div>)}</div></Context.Provider>;
 }
 export const useApp = () => useContext(Context);

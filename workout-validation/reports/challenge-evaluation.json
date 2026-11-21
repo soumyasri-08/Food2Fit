@@ -1,0 +1,29 @@
+{
+  "evaluationType": "raw-feature-model",
+  "modelChanged": false,
+  "description": "Raw-feature logistic regression evaluated on all 10,000 synthetic workout examples (train + validation + test). 24 numeric summary features; threshold selected by macro-F1 on validation split.",
+  "metrics": {
+    "count": 10000,
+    "classified": 10000,
+    "abstainedOnLabeledCases": 0,
+    "expectedAbstentions": 0,
+    "correctAbstentions": 0,
+    "classificationCoverage": 1,
+    "accuracy": 0.9146,
+    "precision": 0.9750242483026188,
+    "recall": 0.9254315304948216,
+    "f1": 0.9495808241823119,
+    "specificity": 0.8427480916030534,
+    "confusion": {
+      "tp": 8042,
+      "tn": 1104,
+      "fp": 206,
+      "fn": 648
+    }
+  },
+  "limitations": [
+    "Labels remain synthetic project-rule labels. Test cases were previously evaluated with an earlier model.",
+    "Raw summary features may lose per-exercise and equipment relationships. This is an experimental baseline.",
+    "Scores describe the dataset distribution; independent expert evaluation remains pending."
+  ]
+}
