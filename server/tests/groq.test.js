@@ -22,6 +22,17 @@ test('Groq sends strict structured JSON and validates the response locally',asyn
  const invalid=createGroqService({apiKey:'test',request:async()=>success({...recipe,servings:99})});
  await assert.rejects(invalid(params),{code:'AI_INVALID_RESPONSE'});
 });
+
+test('recipe requests retain array bounds and repairs name missing required fields',async()=>{
+ const requests=[];
+ const service=createGroqService({apiKey:'test',request:async(_,req)=>{
+  requests.push(JSON.parse(req.body));
+  return success(requests.length===1?{title:recipe.title,description:recipe.description,ingredients:recipe.ingredients,instructions:recipe.instructions}:recipe);
+ }});
+ assert.deepEqual(await service({...params,keepSchemaBounds:true}),recipe);
+ assert.equal(requests[0].response_format.json_schema.schema.properties.instructions.minItems,4);
+ assert.match(requests[1].messages[0].content,/Missing required fields: prepTime, cookTime, servings, nutrition/);
+});
 test('quota retries are bounded and auth failures are never retried',async()=>{
  for(const [status,code]of [[429,'AI_QUOTA_EXCEEDED'],[401,'AI_ACCESS_DENIED'],[400,'AI_REQUEST_REJECTED'],[503,'AI_UNAVAILABLE']]){
   let calls=0;const delays=[];const service=createGroqService({apiKey:'test',sleep:async ms=>delays.push(ms),request:async()=>{calls++;return {ok:false,status};}});

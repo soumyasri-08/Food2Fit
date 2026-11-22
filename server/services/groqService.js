@@ -7,13 +7,13 @@ function structuralSchema(value) {
   return value;
 }
 function createGroqService({request=fetch,apiKey=env.groqApiKey,model=env.groqModel,timeoutMs=45000,totalTimeoutMs=35000,now=Date.now,sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}) {
-  async function attemptCall({parts,schema,systemInstruction,outputBudget,attempt,request:req,apiKey:key,model:mdl,timeoutMs:tms}){
+  async function attemptCall({parts,schema,systemInstruction,outputBudget,attempt,repairHint,keepSchemaBounds,request:req,apiKey:key,model:mdl,timeoutMs:tms}){
     const abort=new AbortController();let timer;
     try {
       const response=await Promise.race([
         req('https://api.groq.com/openai/v1/chat/completions',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},signal:abort.signal,body:JSON.stringify({model:mdl,
-          messages:[{role:'system',content:systemInstruction+' Return compact JSON only. The JSON must conform to all bounds, required fields and array lengths in this schema: '+JSON.stringify(schema)+(attempt ? '\nThe previous attempt failed format validation. Return a complete object, without explanation or markdown.' : '')},{role:'user',content:parts.map(p=>p.text).join('\n')}],
-          response_format:attempt ? {type:'json_object'} : {type:'json_schema',json_schema:{name:'food2fit_response',strict:true,schema:structuralSchema(schema)}},
+          messages:[{role:'system',content:systemInstruction+' Return compact JSON only. The JSON must conform to all bounds, required fields and array lengths in this schema: '+JSON.stringify(schema)+(attempt ? '\nThe previous attempt failed format validation. '+repairHint+' Return a complete object, without explanation or markdown.' : '')},{role:'user',content:parts.map(p=>p.text).join('\n')}],
+          response_format:attempt ? {type:'json_object'} : {type:'json_schema',json_schema:{name:'food2fit_response',strict:true,schema:keepSchemaBounds?schema:structuralSchema(schema)}},
           reasoning_effort:'low',max_completion_tokens:outputBudget,temperature:attempt?0.2:0.7})}),
         new Promise((_,reject)=>{timer=setTimeout(()=>{abort.abort();reject(new AppError(504,'AI_TIMEOUT','Groq took too long. Please try again.'));},tms);}),
       ]);
@@ -33,7 +33,11 @@ function createGroqService({request=fetch,apiKey=env.groqApiKey,model=env.groqMo
       if(choice?.finish_reason!=='stop')throw new AppError(502,'AI_INVALID_RESPONSE','Groq returned an incomplete response. Try a smaller request.');
       try { return {result: parseOutput(choice.message.content,schema)}; }
       catch(error){
-        if(error.code==='AI_INVALID_RESPONSE'&&attempt===0) return {retry:'format'};
+        if(error.code==='AI_INVALID_RESPONSE'&&attempt===0) {
+          let value;try{value=JSON.parse(choice.message.content);}catch{}
+          const missing=(schema.required||[]).filter(key=>!value||!Object.hasOwn(value,key));
+          return {retry:'format',repairHint:missing.length ? 'Missing required fields: '+missing.join(', ')+'. Include every one of them.' : 'Check every field type, number bound and minimum array length in the schema.'};
+        }
         throw error;
       }
     }catch(error){
@@ -42,15 +46,15 @@ function createGroqService({request=fetch,apiKey=env.groqApiKey,model=env.groqMo
       throw new AppError(503,'AI_UNAVAILABLE','Could not reach Groq. Check the connection and try again.');
     }finally{clearTimeout(timer);}
   }
-  return async ({parts,schema,systemInstruction,maxOutputTokens=6000})=>{
+  return async ({parts,schema,systemInstruction,maxOutputTokens=6000,keepSchemaBounds=false})=>{
     if(!apiKey)throw new AppError(503,'AI_NOT_CONFIGURED','Add GROQ_API_KEY to the server settings, then restart the backend.');
     if(parts.some(p=>typeof p.text!=='string'))throw new AppError(422,'AI_IMAGE_UNSUPPORTED','This Groq model accepts text only.');
     const deadline=now()+totalTimeoutMs;
-    let outputBudget=Math.min(maxOutputTokens,6000), attempt=0, rateLimitRetries=0;
+    let outputBudget=Math.min(maxOutputTokens,6000), attempt=0, rateLimitRetries=0, repairHint='Include ALL required fields: '+(schema.required||[]).join(', ')+'.';
     for(;;) {
       const remaining=deadline-now();
       if(remaining<=0)throw new AppError(504,'AI_TIMEOUT','AI generation took too long. Please try again.');
-      const outcome=await attemptCall({parts,schema,systemInstruction,outputBudget,attempt,request,apiKey,model,timeoutMs:Math.min(timeoutMs,remaining)});
+      const outcome=await attemptCall({parts,schema,systemInstruction,outputBudget,attempt,repairHint,keepSchemaBounds,request,apiKey,model,timeoutMs:Math.min(timeoutMs,remaining)});
       if(outcome.result!==undefined) return outcome.result;
       if(outcome.retry==='rate_limit'){
         if(rateLimitRetries>=2) throw new AppError(429,'AI_QUOTA_EXCEEDED','Groq token limit reached after retries. Please wait 30 seconds before trying again.');
@@ -62,7 +66,7 @@ function createGroqService({request=fetch,apiKey=env.groqApiKey,model=env.groqMo
         continue;
       }
       if(outcome.retry==='length'){outputBudget=outcome.outputBudget;attempt=1;continue;}
-      if(outcome.retry==='format'){attempt=1;continue;}
+      if(outcome.retry==='format'){repairHint=outcome.repairHint||repairHint;attempt=1;continue;}
       break;
     }
     throw new AppError(502,'AI_INVALID_RESPONSE','Groq returned an invalid response after all retries.');
