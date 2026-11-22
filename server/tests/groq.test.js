@@ -10,6 +10,35 @@ test('quota waits cannot exceed the overall generation budget',async()=>{
  await assert.rejects(service(params),{code:'AI_QUOTA_EXCEEDED'});
  assert.equal(calls,2);assert.deepEqual(waits,[15000]);
 });
+
+test('models without strict output support use JSON mode without reasoning options',async()=>{
+ let body;
+ const service=createGroqService({apiKey:'test',model:'llama-3.3-70b-versatile',request:async(_,req)=>{body=JSON.parse(req.body);return success(recipe);}});
+ assert.deepEqual(await service(params),recipe);
+ assert.deepEqual(body.response_format,{type:'json_object'});
+ assert.equal(Object.hasOwn(body,'reasoning_effort'),false);
+});
+
+test('unsupported schema rejection retries compatible JSON once and validates all fields',async()=>{
+ for(const value of [recipe,{...recipe,instructions:['Mix.']}]){
+  const bodies=[];
+  const service=createGroqService({apiKey:'test',request:async(_,req)=>{
+   bodies.push(JSON.parse(req.body));
+   return bodies.length===1?{ok:false,status:400,json:async()=>({error:{message:'response_format json_schema has unsupported constraints'}})}:success(value);
+  }});
+  if(value===recipe)assert.deepEqual(await service(params),recipe);
+  else await assert.rejects(service(params),{code:'AI_INVALID_RESPONSE'});
+  assert.equal(bodies.length,2);assert.equal(bodies[1].response_format.type,'json_object');
+ }
+});
+
+test('missing models and oversized requests are distinct and never retried',async()=>{
+ for(const [status,code] of [[404,'AI_MODEL_UNAVAILABLE'],[413,'AI_REQUEST_REJECTED']]){
+  let calls=0;
+  const service=createGroqService({apiKey:'test',request:async()=>{calls++;return {ok:false,status};}});
+  await assert.rejects(service(params),{code});assert.equal(calls,1);
+ }
+});
 test('a format retry shares the original request deadline',async()=>{
  let clock=0,calls=0;
  const service=createGroqService({apiKey:'test',now:()=>clock,totalTimeoutMs:100,request:async()=>{calls++;clock=101;return success({});}});

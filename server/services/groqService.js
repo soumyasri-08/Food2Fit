@@ -1,6 +1,8 @@
 const env = require('../config/env');
 const { AppError } = require('../middleware/errors');
 const { parseOutput } = require('./recipeSchema');
+// Other Groq models use JSON object mode; schema validation still runs locally.
+const strictModels = new Set(['openai/gpt-oss-20b', 'openai/gpt-oss-120b', 'qwen/qwen3.8-27b', 'meta-models/muse-spark-open']);
 function structuralSchema(value) {
   if(Array.isArray(value))return value.map(structuralSchema);
   if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).filter(([k])=>!['minItems','maxItems','minLength','maxLength','minimum','maximum'].includes(k)).map(([k,v])=>[k,structuralSchema(v)]));
@@ -13,18 +15,21 @@ function createGroqService({request=fetch,apiKey=env.groqApiKey,model=env.groqMo
       const response=await Promise.race([
         req('https://api.groq.com/openai/v1/chat/completions',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},signal:abort.signal,body:JSON.stringify({model:mdl,
           messages:[{role:'system',content:systemInstruction+' Return compact JSON only. The JSON must conform to all bounds, required fields and array lengths in this schema: '+JSON.stringify(schema)+(attempt ? '\nThe previous attempt failed format validation. '+repairHint+' Return a complete object, without explanation or markdown.' : '')},{role:'user',content:parts.map(p=>p.text).join('\n')}],
-          response_format:attempt ? {type:'json_object'} : {type:'json_schema',json_schema:{name:'food2fit_response',strict:true,schema:keepSchemaBounds?schema:structuralSchema(schema)}},
-          reasoning_effort:'low',max_completion_tokens:outputBudget,temperature:attempt?0.2:0.7})}),
+          response_format:attempt || !strictModels.has(mdl) ? {type:'json_object'} : {type:'json_schema',json_schema:{name:'food2fit_response',strict:true,schema:keepSchemaBounds?schema:structuralSchema(schema)}},
+          ...(strictModels.has(mdl)?{reasoning_effort:'low'}:{}),max_completion_tokens:outputBudget,temperature:attempt?0.2:0.7})}),
         new Promise((_,reject)=>{timer=setTimeout(()=>{abort.abort();reject(new AppError(504,'AI_TIMEOUT','Groq took too long. Please try again.'));},tms);}),
       ]);
       if(!response.ok){
-        if(response.status===400 && attempt===0) {
-          const failure=typeof response.json==='function' ? await response.json().catch(()=>null) : null;
-          if(failure?.error?.code==='json_validate_failed') return {retry:'format'};
-        }
+        const failure=typeof response.json==='function' ? await response.json().catch(()=>null) : null;
+        const providerCode=failure?.error?.code;
+        // Inspect the rejection without exposing provider text or generated content.
+        if([400,422].includes(response.status) && attempt===0 &&
+          (providerCode==='json_validate_failed' || (strictModels.has(mdl) && /json_schema|response_format|schema.*(?:unsupported|not supported|invalid)|(?:unsupported|not supported|invalid).*schema/i.test(failure?.error?.message||'')))) return {retry:'format'};
         if(response.status===429) return {retry:'rate_limit'};
         if([401,403].includes(response.status))throw new AppError(503,'AI_ACCESS_DENIED','Groq access was denied. Check the server API key and model permissions.');
-        if([400,404,413,422].includes(response.status))throw new AppError(502,'AI_REQUEST_REJECTED','Groq rejected the model, request format or request size.');
+        if(response.status===404 || ['model_not_found','model_decommissioned'].includes(providerCode))throw new AppError(503,'AI_MODEL_UNAVAILABLE','The configured Groq model is unavailable. Update GROQ_MODEL in the backend settings.');
+        if(response.status===413 || providerCode==='context_length_exceeded')throw new AppError(422,'AI_REQUEST_REJECTED','This recipe request is too large. Use fewer ingredients or start a new recipe.');
+        if([400,422].includes(response.status))throw new AppError(502,'AI_REQUEST_REJECTED','Groq rejected the generation settings. Check the backend model configuration.');
         throw new AppError(503,'AI_UNAVAILABLE','Groq is temporarily unavailable. Your saved plans are unchanged.');
       }
       const body=await response.json(),choice=body.choices?.[0];
