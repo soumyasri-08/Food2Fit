@@ -6,7 +6,7 @@ function structuralSchema(value) {
   if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).filter(([k])=>!['minItems','maxItems','minLength','maxLength','minimum','maximum'].includes(k)).map(([k,v])=>[k,structuralSchema(v)]));
   return value;
 }
-function createGroqService({request=fetch,apiKey=env.groqApiKey,model=env.groqModel,timeoutMs=45000,sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}) {
+function createGroqService({request=fetch,apiKey=env.groqApiKey,model=env.groqModel,timeoutMs=45000,totalTimeoutMs=35000,now=Date.now,sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}) {
   async function attemptCall({parts,schema,systemInstruction,outputBudget,attempt,request:req,apiKey:key,model:mdl,timeoutMs:tms}){
     const abort=new AbortController();let timer;
     try {
@@ -45,14 +45,18 @@ function createGroqService({request=fetch,apiKey=env.groqApiKey,model=env.groqMo
   return async ({parts,schema,systemInstruction,maxOutputTokens=6000})=>{
     if(!apiKey)throw new AppError(503,'AI_NOT_CONFIGURED','Add GROQ_API_KEY to the server settings, then restart the backend.');
     if(parts.some(p=>typeof p.text!=='string'))throw new AppError(422,'AI_IMAGE_UNSUPPORTED','This Groq model accepts text only.');
+    const deadline=now()+totalTimeoutMs;
     let outputBudget=Math.min(maxOutputTokens,6000), attempt=0, rateLimitRetries=0;
     for(;;) {
-      const outcome=await attemptCall({parts,schema,systemInstruction,outputBudget,attempt,request,apiKey,model,timeoutMs});
+      const remaining=deadline-now();
+      if(remaining<=0)throw new AppError(504,'AI_TIMEOUT','AI generation took too long. Please try again.');
+      const outcome=await attemptCall({parts,schema,systemInstruction,outputBudget,attempt,request,apiKey,model,timeoutMs:Math.min(timeoutMs,remaining)});
       if(outcome.result!==undefined) return outcome.result;
       if(outcome.retry==='rate_limit'){
         if(rateLimitRetries>=2) throw new AppError(429,'AI_QUOTA_EXCEEDED','Groq token limit reached after retries. Please wait 30 seconds before trying again.');
         rateLimitRetries++;
         const wait=rateLimitRetries===1?15000:30000;
+        if(wait+1000>=deadline-now())throw new AppError(429,'AI_QUOTA_EXCEEDED','The AI limit has been reached. Please try again later.');
         console.log(`[groq] Rate-limited — waiting ${wait/1000}s (retry ${rateLimitRetries}/2)`);
         await sleep(wait);
         continue;

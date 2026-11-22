@@ -4,6 +4,17 @@ const {recipeSchema}=require('../services/recipeSchema');
 const recipe=require('./recipeFixture');
 const params={parts:[{text:'Create a recipe'}],schema:recipeSchema,systemInstruction:'Food only'};
 const success=value=>({ok:true,json:async()=>({choices:[{finish_reason:'stop',message:{content:JSON.stringify(value)}}]})});
+test('quota waits cannot exceed the overall generation budget',async()=>{
+ let clock=0,calls=0;const waits=[];
+ const service=createGroqService({apiKey:'test',now:()=>clock,sleep:async ms=>{waits.push(ms);clock+=ms;},request:async()=>{calls++;return {ok:false,status:429};}});
+ await assert.rejects(service(params),{code:'AI_QUOTA_EXCEEDED'});
+ assert.equal(calls,2);assert.deepEqual(waits,[15000]);
+});
+test('a format retry shares the original request deadline',async()=>{
+ let clock=0,calls=0;
+ const service=createGroqService({apiKey:'test',now:()=>clock,totalTimeoutMs:100,request:async()=>{calls++;clock=101;return success({});}});
+ await assert.rejects(service(params),{code:'AI_TIMEOUT'});assert.equal(calls,1);
+});
 test('Groq sends strict structured JSON and validates the response locally',async()=>{
  let body;const service=createGroqService({apiKey:'test',request:async(url,req)=>{assert.equal(url,'https://api.groq.com/openai/v1/chat/completions');body=JSON.parse(req.body);return success(recipe);}});
  assert.deepEqual(await service(params),recipe);assert.equal(body.response_format.json_schema.strict,true);assert.equal(body.model,'openai/gpt-oss-20b');

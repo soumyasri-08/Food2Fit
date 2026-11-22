@@ -5,6 +5,13 @@ const { recipeSchema, detectionSchema, parseOutput } = require('../services/reci
 const recipe = require('./recipeFixture');
 const params = { parts: [{ text: 'Make a recipe.' }], schema: recipeSchema, systemInstruction: 'JSON only.' };
 
+test('Gemini retries share a total deadline', async () => {
+  let clock=0,calls=0;
+  const service=createGeminiService({now:()=>clock,totalTimeoutMs:100,sleep:async ms=>{clock+=ms;},generate:async()=>{calls++;throw {status:429};}});
+  await assert.rejects(service(params),{code:'AI_TIMEOUT'});
+  assert.equal(calls,1);
+});
+
 test('strict output parsing accepts JSON fences and rejects malformed, extra, missing and coerced fields', () => {
   assert.deepEqual(parseOutput('```json\n' + JSON.stringify(recipe) + '\n```', recipeSchema), recipe);
   for (const value of ['not json', JSON.stringify({ ...recipe, unexpected: true }), JSON.stringify({ ...recipe, title: null }), JSON.stringify({ ...recipe, servings: '2' }), JSON.stringify({ ...recipe, nutrition: { ...recipe.nutrition, fat: -1 } }), JSON.stringify({ ...recipe, instructions: [] }), JSON.stringify({ ...recipe, title: '<script>alert(1)</script>' })]) {

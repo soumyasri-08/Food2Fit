@@ -19,25 +19,28 @@ function structuralSchema(value) {
   return value;
 }
 // Dependencies are injectable for deterministic tests; no test-only HTTP endpoint.
-function createGeminiService({ generate, sleep = delay, timeoutMs = 45000 } = {}) {
+function createGeminiService({ generate, sleep = delay, timeoutMs = 45000, totalTimeoutMs = 35000, now = Date.now } = {}) {
   return async function generateJSON({ parts, schema, systemInstruction, simplifyProviderSchema = false, maxOutputTokens = 6000 }) {
     if (!generate && (!env.geminiApiKey || !env.geminiModel)) {
       throw new AppError(503, 'AI_NOT_CONFIGURED', 'Gemini AI is not configured yet. Your saved content is still available.');
     }
     const call = generate || (params => new GoogleGenAI({ apiKey: env.geminiApiKey }).models.generateContent(params));
+    const deadline = now() + totalTimeoutMs;
     for (let attempt = 0; attempt < 3; attempt++) {
+      const remaining = Math.min(timeoutMs, deadline - now());
+      if (remaining <= 0) throw new AppError(504, 'AI_TIMEOUT', 'Gemini AI took too long. Please try again.');
       const abort = new AbortController();
       let timer;
       try {
         const timeout = new Promise((resolve, reject) => {
-          timer = setTimeout(() => { abort.abort(); reject(new AppError(504, 'AI_TIMEOUT', 'Gemini AI took too long. Please try again.')); }, timeoutMs);
+          timer = setTimeout(() => { abort.abort(); reject(new AppError(504, 'AI_TIMEOUT', 'Gemini AI took too long. Please try again.')); }, remaining);
         });
         const response = await Promise.race([call({ model: env.geminiModel,
           contents: [{ role: 'user', parts }], config: {
             systemInstruction, responseMimeType: 'application/json', responseJsonSchema: simplifyProviderSchema ? structuralSchema(schema) : schema,
             ...(/^(models\/)?gemini-3[.-]/.test(env.geminiModel || '') ? { thinkingConfig: { thinkingLevel: ThinkingLevel.LOW } } : {}),
             maxOutputTokens, temperature: 0.7, abortSignal: abort.signal,
-            httpOptions: { timeout: timeoutMs, retryOptions: { attempts: 1 } },
+            httpOptions: { timeout: remaining, retryOptions: { attempts: 1 } },
           } }), timeout]);
         if (response.promptFeedback?.blockReason || response.candidates?.some(candidate => ['SAFETY', 'BLOCKLIST', 'PROHIBITED_CONTENT', 'SPII', 'RECITATION', 'IMAGE_SAFETY'].includes(candidate.finishReason))) {
           throw new AppError(422, 'AI_SAFETY_BLOCK', 'The AI could not process that request. Try changing your request.');
