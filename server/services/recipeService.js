@@ -23,13 +23,13 @@ async function generate(user, input, source) {
   const prefs = source ? (source.preferences ? { ...source.preferences, language: source.preferences.language || 'English' } : null) : preferences(input);
   if (!prefs) throw new AppError(422, 'RECIPE_PREFERENCES_MISSING', 'This older recipe has no stored preferences. Generate a new recipe before refining it.');
   const request = { preferences: prefs, ...(source ? { original: source.recipe, refinement: input.refinement } : {}) };
-  const key = createHash('sha256').update(JSON.stringify({ version: 2, user: String(user), provider: gemini.provider, model: gemini.model, request })).digest('hex');
+  const key = createHash('sha256').update(JSON.stringify({ version: 3, user: String(user), provider: gemini.provider, model: gemini.model, request })).digest('hex');
   const cached = input.regenerate ? null : await RecipeCache.findOne({ key, expiresAt: { $gt: new Date() } }).lean();
   let recipe = cached?.recipe;
   if (recipe && (!matches(recipe, recipeSchema) || recipe.servings !== prefs.servings)) recipe = null;
   const cacheHit = Boolean(recipe);
   if (!recipe) {
-    recipe = await gemini.generateJSON({ schema: recipeSchema, systemInstruction: SYSTEM + ` Write the recipe title, description, ingredient names, quantities and cooking instructions in ${prefs.language}, using its native script where appropriate. Keep JSON keys in English and numeric fields as numbers.`,
+    recipe = await gemini.generateJSON({ schema: recipeSchema, systemInstruction: SYSTEM + ` Provide a complete cooking method from preparation through serving, normally 4 to 10 meaningful ordered steps, with at least 4 separate instructions array entries. Each entry must describe a distinct actionable stage, not filler or repeated text. Explain ingredient preparation, when and how to add every ingredient, cooking or assembly, and finishing and serving. Include heat level, approximate duration and doneness cues wherever cooking is involved. Do not stop after seasoning or mixing, omit the main cooking stage, or combine the whole method into one entry. For no-cook dishes, cover preparation, assembly, mixing and serving without inventing heating steps. Apply this to refinements too. Write the recipe title, description, ingredient names, quantities and cooking instructions in ${prefs.language}, using its native script where appropriate. Keep JSON keys in English and numeric fields as numbers.`,
       parts: [{ text: `Create one recipe for these preferences. Keep servings equal to the request. Aim for the calorie target per serving and cooking-time limit. For healthier refinement, reduce added sugar/saturated fat and emphasize vegetables; for higher-protein increase protein per serving while preserving diet/allergies. ${JSON.stringify(request)}` }] });
     // Check again at the persistence boundary, including when a cached record is used.
     if (!matches(recipe, recipeSchema) || recipe.servings !== prefs.servings) throw new AppError(502, 'AI_INVALID_RESPONSE', 'The AI recipe did not match the requested format or servings. Please try again.');

@@ -6,7 +6,7 @@ const nutritionSchema = object(Object.fromEntries(['calories', 'protein', 'carbs
 const recipeSchema = object({
   title: string(160), description: string(2000),
   ingredients: { type: 'array', minItems: 1, maxItems: 80, items: object({ name: string(200), quantity: string(100) }) },
-  instructions: { type: 'array', minItems: 1, maxItems: 50, items: string(2000) },
+  instructions: { type: 'array', minItems: 4, maxItems: 50, items: string(2000) },
   prepTime: number(1440), cookTime: number(1440), servings: { type: 'integer', minimum: 1, maximum: 20 },
   nutrition: nutritionSchema,
 });

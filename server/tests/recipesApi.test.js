@@ -74,6 +74,26 @@ test('input and output validation prevent unsafe persistence', async () => {
   await send('post', '/generate').send(input).expect(502);
   assert.equal(await models.Recipe.countDocuments({}), 0); assert.equal(await models.RecipeCache.countDocuments({}), 0);
 });
+test('one-step recipes are rejected before storage', async () => {
+  gemini.generateJSON = async () => ({ ...fixture, instructions: ['Mix the ingredients.'] });
+  const response = await send('post', '/generate').send(input).expect(502);
+  assert.equal(response.body.error.code, 'AI_INVALID_RESPONSE');
+  assert.equal(await models.Recipe.countDocuments({}), 0);
+  assert.equal(await models.RecipeCache.countDocuments({}), 0);
+});
+
+test('an incomplete cached recipe is regenerated with complete instructions in the requested language', async () => {
+  const prefs = { ...input, language: 'Telugu' };
+  await send('post', '/generate').send(prefs).expect(201);
+  await models.RecipeCache.updateMany({}, { $set: { 'recipe.instructions': ['Mix the ingredients.'] } });
+  const response = await send('post', '/generate').send(prefs).expect(201);
+  assert.equal(response.body.cached, false);
+  assert.deepEqual(response.body.recipe.recipe.instructions, fixture.instructions);
+  assert.equal(calls.length, 2);
+  assert.match(calls.at(-1).systemInstruction, /complete cooking method from preparation through serving/);
+  assert.match(calls.at(-1).systemInstruction, /in Telugu/);
+});
+
 test('a cached recipe with mismatched servings is replaced rather than returned', async () => {
   await send('post', '/generate').send(input).expect(201);
   await models.RecipeCache.updateMany({}, { $set: { 'recipe.servings': 3 } });
